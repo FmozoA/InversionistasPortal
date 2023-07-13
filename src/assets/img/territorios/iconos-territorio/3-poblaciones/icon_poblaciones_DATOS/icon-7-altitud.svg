@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 24.0.2, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 70 70" style="enable-background:new 0 0 70 70;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:none;stroke:#19A301;stroke-width:2.4;stroke-linecap:round;stroke-linejoin:round;}
+	.st1{fill:none;stroke:#82D400;stroke-width:2.4;stroke-linecap:round;stroke-linejoin:round;}
+	.st2{fill:none;}
+	.st3{fill:none;stroke:#19A301;stroke-width:1.5;stroke-linecap:round;stroke-linejoin:round;}
+	.st4{fill:none;stroke:#FFFFFF;stroke-width:1.5;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
+</style>
+<symbol  id="OCENSA-EXT" viewBox="-35 -7.5 70 15">
+	<g>
+		<line id="Line_4_1_" class="st0" x1="6.7" y1="0" x2="15.1" y2="0"/>
+		<line id="Line_5_1_" class="st0" x1="23.4" y1="0" x2="24.1" y2="0"/>
+		<line id="Line_6_1_" class="st0" x1="-24.1" y1="0" x2="-15.8" y2="0"/>
+		<line id="Line_7_1_" class="st1" x1="-16.3" y1="0" x2="-1.7" y2="0"/>
+	</g>
+	<rect x="-35" y="-7.5" class="st2" width="70" height="15"/>
+</symbol>
+<g id="Capa_2">
+	<g>
+		<rect y="0" class="st2" width="70" height="70"/>
+		<g>
+			<circle id="Ellipse_2_144_" class="st3" cx="20.4" cy="41.6" r="5.8"/>
+			<g>
+				<line class="st4" x1="61.6" y1="54.3" x2="8.4" y2="54.3"/>
+				<line class="st4" x1="14.3" y1="54.2" x2="16.6" y2="49.3"/>
+				<polyline class="st4" points="55.9,54.1 43.7,25.5 39.7,28.5 32.9,13.7 23.8,33.5 				"/>
+			</g>
+			<line class="st4" x1="38.8" y1="38.7" x2="52.4" y2="38.7"/>
+			<line class="st4" x1="47.1" y1="43.9" x2="54.5" y2="43.9"/>
+		</g>
+		<g>
+			<defs>
+				<rect id="SVGID_1_" y="55" width="70" height="15"/>
+			</defs>
+			<clipPath id="SVGID_2_">
+				<use xlink:href="#SVGID_1_"  style="overflow:visible;"/>
+			</clipPath>
+			<g style="clip-path:url(#SVGID_2_);">
+				
+					<use xlink:href="#OCENSA-EXT"  width="70" height="15" x="-35" y="-7.5" transform="matrix(1 0 0 -1 35 62.5)" style="overflow:visible;"/>
+			</g>
+		</g>
+	</g>
+</g>
+</svg>

@@ -1,0 +1,159 @@
+.ocw-cultura
+    overflow-x: hidden
+    &__intro
+        img
+            width: 100%
+            height: 720px
+            object-fit: cover
+        .ocw-share-item
+            right: 8em
+            bottom: 2em
+        &-left
+            background-color: rgba(#DFE4E8, .4)
+            padding: 8em
+            display: flex
+            align-items: center
+    &__awards
+        p
+            color: white
+            font-size: 25px
+            margin-top: 1em            
+        &-left
+            background-color: $p-gray
+            text-align: center
+            padding: 7em 8em
+        &-right
+            background-color: $p-color
+            text-align: center
+            padding: 7em 8em
+    &__sect-b
+        padding-top: 8em
+        &-left
+            .ocw-cont-blog-multimedia.ocw-w-left
+                background-color: rgba(#2E3D43, .3)
+                height: 100%
+                margin: 0
+                &::before
+                    background-color: white
+                img
+                    height: 100%
+            .ocw-share-item
+                left: 9.5em
+                bottom: 10em
+        &-right
+            display: flex
+            align-items: center
+            padding: 0 8em
+            p
+                margin-bottom: 2em
+    &__sect-c
+        margin: 8em 0
+        &-left
+            padding: 0 8em
+            display: flex
+            align-items: center
+            p
+                margin-bottom: 2em
+        &-right
+            img
+                width: 100%
+                height: 100%
+                object-fit: cover
+            .ocw-share-item
+                right: 8em
+                bottom: 2em
+    &__sect-d
+        background-color: $p-gray
+        padding: 8em
+        &-cont
+            width: 60%
+            margin: auto
+            display: flex
+            align-items: center
+            p
+                color: white
+                font-size: 22px
+                margin: 0
+                padding-left: 2em
+    &__sect-e
+        padding: 8em
+        background-color: rgba(#DFE4E8,.4)
+    &__sect-f
+        &-left
+            img
+                width: 100%
+                height: 100%
+                object-fit: cover
+            .ocw-share-item
+                left: 8em
+                bottom: 2em
+        &-right
+            display: flex
+            align-items: center
+            padding: 5em 8em
+            p
+                margin-bottom: 2em
+    .ocw-share-item
+        width: 45px
+        height: 45px
+        display: flex
+        justify-content: center
+        align-items: center
+        border-radius: 50%
+        background-color: white
+        position: absolute
+        .ocw-share-item__box
+            left: -76
+            top: 59
+        svg
+            path
+                color:#96A6B0
+
+//Responsive
+@include media-breakpoint-down(md)
+    .ocw-cultura
+        &__intro
+            &-left
+                padding: 3em 2em
+            img
+                height: 345px
+            .ocw-share-item
+                right: 2em
+        &__awards
+            &-left
+                padding: 7em 2em
+            &-right
+                padding: 7em 2em
+        &__sect-b
+            padding-top: 5em
+            .row
+                flex-flow: column-reverse
+            &-right
+                padding: 0 3em 2em 3em
+            .ocw-cont-blog-multimedia
+                padding: 0
+            .ocw-share-item
+                left: 2em
+                bottom: 2em
+        &__sect-c
+            margin: 5em 0 0 0
+            &-left
+                padding: 0 2em 2em 2em
+            .ocw-share-item
+                right: 2em
+        &__sect-d
+            padding: 6em 2em
+            &-cont
+                width: 100%
+                display: block
+                text-align: center
+                p
+                    padding: 0
+                    margin-top: 2em
+        &__sect-e
+            padding: 5em 2em
+        &__sect-f
+            &-right
+                padding: 5em 2em
+            .ocw-share-item
+                left: 2em

@@ -1,0 +1,20 @@
+.ocw-card-post-large
+    &__content
+        &__title
+            @include ocw-heading-2
+            font-family: 'helvetica-light', sans-serif
+        &__desc
+            @include ocw-n-text-regular
+            font-family: 'helvetica-light', sans-serif
+    &__img
+        width: 100%
+
+@include media-breakpoint-up(lg)
+    .ocw-card-post-large
+        &__content
+            padding-left: 3rem
+
+@include media-breakpoint-down(lg)
+    .ocw-card-post-large
+        &__content
+            padding-top: 2rem

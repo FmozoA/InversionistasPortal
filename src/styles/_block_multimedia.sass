@@ -1,0 +1,44 @@
+.ocw-cont-blog-multimedia
+    background-color: rgba(46,61,67,.5)
+    margin-top: 100px
+    position: relative
+    &::before
+        position: absolute
+        content: ""
+        width: 200px
+        height: 100%
+        background-color: #F2F4F6
+        top: 0
+    &.ocw-w-left
+        padding: 8em
+        padding-right: 0em
+        &::before
+            right: 0
+    &.ocw-w-right
+        padding: 8em
+        padding-left: 0em
+        &::before
+            left: 0
+    &__img
+        width: 100%
+        height: auto
+        object-fit: cover
+        position: relative
+
+.ocw-cont-blog-multimedia__cont
+    position: relative
+    &__share-button
+        position: absolute
+        bottom: 1rem
+        right: 1rem
+        .ocw-share-item__link
+            width: 42px
+            height: 42px
+            background: white
+            color: #8999A2
+            border-radius: 50%
+            display: flex
+            align-items: center
+            justify-content: center
+            &:hover
+                color: $p-color

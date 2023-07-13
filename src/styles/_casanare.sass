@@ -1,0 +1,137 @@
+#ocw-cas-ecosistemas
+    .cont-img-eco
+        position: relative
+        .ocw-share-item
+            position: absolute
+            right: 45px
+            bottom: 20px
+            z-index: 2
+            width: 45px
+            height: 45px
+            display: flex
+            justify-content: center
+            align-items: center
+            border-radius: 50%
+            background-color: white
+            svg
+                color: #8999A2
+        &:hover
+            svg
+                color: #19a301
+                
+        .ocw-cas-ecosistemas-img
+            width: 100%
+            height: auto
+            object-fit: cover
+
+#ocw-cas-eco-aux
+    .ocw-cas-text
+        .ocw-cas-text-eco
+            font-family: "helvetica-light", sans-serif
+            font-size: 16px
+
+#ocw-cas-habitat
+    .ocw-cont-blog-multimedia
+        background-color: #C0C9CF
+    .ocw-cont-blog-multimedia::before
+        background-color: white
+    .ocw-share-item
+        position: absolute
+        right: 150px
+        bottom: 145px
+        z-index: 2
+        width: 45px
+        height: 45px
+        display: flex
+        justify-content: center
+        align-items: center
+        border-radius: 50%
+        background-color: white
+        svg
+            color: #8999A2
+    &:hover
+        svg
+            color: #19a301 !important
+#ocw-aux-monterrey
+    .ocw-aux-monterrey-img
+        width: 100%
+        height: 100%
+        object-fit: cover
+    .ocw-aux-monterrey-text
+        p
+            font-family: "helvetica-light", sans-serif
+            font-size: 16px
+#ocw-estaciones-cards
+    .ocw-cont-card-estaciones
+        padding: 0
+
+.ocw-slick-card-large
+    .slick-dots
+        margin-top: 25px
+
+
+.ocw-cont-territorio-info__img-map
+    .ocw-share-item
+        &:hover
+            svg
+                color: #19a301
+
+@include media-breakpoint-only(md)
+    #cas-carousel-comunidades
+        .slick-slider
+            padding: 2rem
+        .slick-dots
+            padding: 0 1.2rem
+        .ocw-slick-prev
+            left: 50px
+        .ocw-slick-next
+            left: 90px
+    .cas-fauna__gallery
+        padding: 6rem 6rem 0rem 6rem !important
+@include media-breakpoint-down(lg)
+    #ocw-cas-block-multimedia
+        .ocw-cont-blog-multimedia.ocw-w-right
+            padding: 0
+        .ocw-cont-blog-multimedia
+            margin-top: 0
+    #ocw-cas-habitat
+        .ocw-share-item
+            right: 40px
+            bottom: 35px
+    #ocw-estaciones-cards
+        .ocw-card-post-large
+            padding: 0 5rem
+    #cas-fauna
+        .cas-fauna__gallery
+            padding-left: 2rem
+@include media-breakpoint-down(sm)
+    #cas-fauna
+        .cas-fauna__gallery
+            padding: 0
+            margin-top: 3rem
+    #cas-video-full
+        .cas-video-full__cont
+            padding: 0 !important
+        .ocw-cover-video-popup__cover
+            height: 183px
+        .ocw-cover-video-popup__cover__img
+            height: 100%
+            object-fit: cover
+    #ocw-cas-block-multimedia
+        .ocw-cont-blog-multimedia.ocw-w-right
+            padding: 0
+        .ocw-cont-blog-multimedia
+            margin-top: 0
+    #ocw-estaciones-cards
+        .ocw-card-post-large
+            padding: 1em
+    #cas-fauna
+        margin-bottom: 1rem
+        .ocw-btn-lightbox
+            right: 30px
+        .ocw-share-item
+            left: 30px
+        .cas-fauna__gallery
+            padding-left: 0
+        .ocw-cont-territorio-info
+            margin-top: 3em

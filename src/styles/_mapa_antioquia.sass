@@ -1,0 +1,203 @@
+.ocw-mapa-antioquia
+    padding-top: 5em
+    .ocw-mapa__indicator
+        top: 0
+    .ocw-mapa__line
+        top: -112px
+        right: 102px
+        width: 273px
+    .ocw-mapa__name-point
+        span
+            line-height: 1em
+    .ocw-mapa__location-modals-02
+        .ocw-mapa__name-point
+            padding: 0
+            padding-left: .5em
+        .ocw-mapa__img-icon
+            margin-left: .5em
+    .ocw-point-99
+        left: 111px
+        top: 404px
+    .ocw-point-100
+        left: 287px
+        top: 496px
+    .ocw-point-101
+        left: 322px
+        top: 385px
+    .ocw-point-102
+        left: 369px
+        top: 611px
+    .ocw-point-103
+        left: 444px
+        top: 311px
+    .ocw-point-104
+        left: 536px
+        top: 651px
+        .ocw-mapa__name-point
+            left: -72px
+    .ocw-point-105
+        left: 582px
+        top: 242px
+    .ocw-point-106
+        left: 600px
+        top: 620px
+    .ocw-point-107
+        left: 675px
+        top: 450px
+        z-index: 1
+        .ocw-mapa__name-point
+            left: -87px
+    .ocw-point-108
+        left: 806px
+        top: 142px
+        .ocw-mapa__name-point
+            left: -122px
+    .ocw-point-109
+        left: 852px
+        top: 185px
+        .ocw-mapa__name-point
+            left: -82px
+    .ocw-point-110
+        left: 852px
+        top: 296px
+    .ocw-point-111
+        left: 875px
+        top: 389px
+    .ocw-point-112
+        left: 1051px
+        top: 312px
+    .ocw-point-113
+        left: 974px
+        top: 39px
+        &:hover
+            .ocw-mapa__icon
+                opacity: 1
+    .ocw-point-114
+        left: 591px
+        top: 580px
+    .ocw-point-115
+        left: 674px
+        top: 427px
+    .ocw-point-116
+        left: 839px
+        top: 146px
+    .ocw-point-117
+        left: 307px
+        top: 561px
+        display: block
+    .ocw-point-118
+        left: 574px
+        top: 545px
+    .ocw-point-119
+        left: 713px
+        top: 611px
+    .ocw-point-120
+        left: 933px
+        top: 206px
+    .ocw-point-121
+        left: 1008px
+        top: 245px
+        span
+            line-height: 1em
+            margin-top: .2em
+    .ocw-point-122
+        left: 754px
+        top: 358px
+    .ocw-point-123
+        left: 596px
+        top: 675px
+    .ocw-point-124
+        left: 620px
+        top: 664px
+    .ocw-map
+        &__info-aditional
+                left: unset
+                right: 80px
+                bottom: 100px
+    .ocw-rio-1
+        left: 378px
+        top: 565px
+    .ocw-rio-2
+        left: 411px
+        top: 620px
+        img
+            width: 362px
+    .ocw-rio-3
+        left: 585px
+        top: 549px
+    .ocw-rio-4
+        left: 901px
+        top: 183px
+        img
+            width: 117px
+    .ocw-rio-5
+        left: 988px
+        top: 240px
+    #mapExt-boyaca
+        position: absolute
+        display: inline-block
+        left: 260px
+        bottom: 102px
+        .ocw-map__ext-city__button-text
+            margin-left: 20px
+    #mapExt-cordoba
+        position: absolute
+        display: inline-block
+        top: 10px
+        right: 369px
+        .ocw-map__ext-city__button-text
+            margin-left: 20px
+
+.ocw-mapa__stat-antioquia
+    margin-top: 3em
+    padding-bottom: 7em
+    .ocw-mapa__stat
+        width: 100%
+    .ocw-tramo-02
+        &::before
+            content: '2'
+    .ocw-tramo-03
+        &::before
+            content: '3'
+    .ocw-tramo-04
+        &::before
+            content: '4'
+#ant-est-caucasia
+    font-family: "helvetica-light", sans-serif
+    ul
+        padding-left: 1.2em
+        list-style: none
+        li
+            position: relative
+            &::before
+                content: ''
+                position: absolute
+                left: -1.2em
+                top: 10px
+                width: 5px
+                height: 5px
+                background-color: $p-color
+                border-radius: 50%
+
+//Tablet        
+@include media-breakpoint-down(md)
+    #ant-carousel-comunidades .slick-slider
+        padding: 2rem
+    #ant-carousel-comunidades .ocw-slick-next
+        left: 90px
+    #ant-carousel-comunidades .ocw-slick-prev
+        left: 50px
+    #ant-carousel-comunidades .slick-dots
+        padding: 0 1.2rem
+
+@include media-breakpoint-down(sm)
+    .ocw-mapa-antioquia
+        padding-top: 7em
+    #ant-carousel-comunidades .slick-slider
+        padding: 0
+    #ant-carousel-comunidades .slick-dots
+        padding: 0
+    #ant-carousel-comunidades .ocw-slick-prev
+        left: 20px
+    #ant-carousel-comunidades .ocw-slick-next
+        left: 60px

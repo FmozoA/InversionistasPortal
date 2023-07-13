@@ -1,0 +1,235 @@
+#ocw-nuestros-proveedores
+    #ocw-proveedores-bienes
+        .ocw-proveedores-bienes__icon
+            width: 70px
+            height: 70px
+            object-fit: cover
+        .ocw-proveedores-bienes__title
+            font-family: "helvetica-light", sans-serif !important
+            font-size: 28px
+            margin: 15px 0px
+        .ocw-proveedores-bienes__title-v2
+            font-family: "helvetica-light", sans-serif !important
+            font-size: 28px
+            margin: 15px 0px
+            color: white
+        .ocw-proveedores-bienes__desc
+            font-family: "helvetica-light", sans-serif !important
+            font-size: 16px
+            line-height: 28px
+        .ocw-proveedores-bienes__desc-v2
+            font-family: "helvetica-light", sans-serif !important
+            font-size: 16px
+            line-height: 28px
+            color: white
+        .ocw-proveedores-bienes__items
+            list-style: none
+            padding: 0
+            li
+                padding: 4px
+                border-bottom: 1px solid #D8D8D8
+                margin-bottom: 5px
+            &__icon
+                width: 40px
+                height: 40px
+                object-fit: cover
+            &__text-right
+                font-family: "helvetica-light", sans-serif !important
+                font-size: 16px
+        .ocw-form-proveedores
+            background-color: white
+            padding: 2em
+            .ocw-proveedores-items-form
+                display: flex
+                flex-direction: column
+                label
+                    font-family: "helvetica-light", sans-serif !important
+                    font-size: 14px
+                .form-control
+                    height: 40px
+                    border-radius: 0px
+                    font-family: "helvetica-light", sans-serif
+                    transition: none
+                    &:focus
+                        border: 1px solid $p-color
+                        box-shadow: none
+                        outline: none
+                    &::placeholder
+                        color: #8999A2
+            .ocw-proveedores-items-form-acceptance
+                .terms
+                    margin-left: 5px
+                    font-family: "helvetica-light", sans-serif !important
+                    font-size: 14px
+            .ocw-proveedores-items-form-submit
+                svg
+                    margin-left: 5px
+                    transform: rotate(45deg)
+                .ocw-proveedores-items-form__login
+                    width: 100%
+                    background-color: #19A301
+                    color: white
+                    border-radius: 0px
+                    border: 1px solid #19A301
+                    padding: 10px
+                    transition: .4s
+                    &:hover
+                        background-color: white
+                        color: #19A301
+            .ocw-proveedores-items-form-submit-v2
+                svg
+                    margin-left: 5px
+                    transform: rotate(45deg)
+                .ocw-proveedores-items-form__register
+                    width: 100%
+                    background-color: white
+                    color: #19A301
+                    border-radius: 0px
+                    border: 1px solid #19A301
+                    padding: 10px
+                    transition: .4s
+                    display: block
+                    text-align: center
+                    &:hover
+                        background-color: #19A301
+                        color: white
+            .ocw-proveedores-items-form-links
+                &__pass, &__police
+                    text-decoration: none
+                    color: black
+                    font-family: "helvetica-light", sans-serif !important
+                    font-size: 14px
+    #ocw-cas-proveedores
+        .ocw-cas-proveedores-img
+            width: 100%
+            height: auto
+            object-fit: cover
+        .ocw-share-item
+            position: absolute
+            left: 45px
+            bottom: 20px
+            z-index: 2
+            width: 45px
+            height: 45px
+            display: flex
+            justify-content: center
+            align-items: center
+            border-radius: 50%
+            background-color: white
+            &__link
+                color: #8999A2
+                &:hover
+                    color: $p-color
+        .ocw-proveedores-procesos__title
+            font-family: "helvetica-light", sans-serif !important
+            font-size: 28px
+            color: white
+        .ocw-proveedores-procesos__icon
+            width: 70px
+            height: 70px
+            object-fit: cover
+        .ocw-button
+            background: transparent
+            color: white
+            border-color: white
+            &__icon
+                display: inline-block
+                transform: rotate(45deg)
+            &:hover
+                background: white
+                color: $p-color
+
+//Seccion informacion de interes
+.ocw-prov
+    &__interes
+        h2
+            font-size: 28px
+            font-family: "helvetica-light", sans-serif
+            margin-top: .5em
+        &-car
+            .slick-slide
+                margin: 0 15px
+            &-item
+                height: 360px
+                position: relative
+                h3
+                    color: white
+                    font-size: 28px
+                    font-family: "helvetica-light", sans-serif
+                    margin-top: .5em
+                img
+                    width: 70px
+                    position: absolute
+                    top: -60px
+                .ocw-img-green
+                    opacity: 0
+                a
+                    height: 0
+                    display: block
+                    overflow: hidden
+                    transition: $tr
+                    color: white
+                    &:hover
+                        color: white
+                &:hover a
+                    height: 40px
+                &:hover .ocw-img-dark
+                    opacity: 0
+                &:hover .ocw-img-green
+                    opacity: 1
+                &.ocw-black
+                    transition: $tr
+                    &-1
+                        background-color: #2E3D43
+                    &-2
+                        background-color: rgba(#2E3D43, .79)
+                    &-3
+                        background-color: #8999A2
+                &:hover
+                    background-color: #19A301
+                &-cont
+                    position: absolute
+                    bottom: 0
+                    padding: 0 1.5em 1em 1.5em
+
+//Seccion nuestros propositos
+.ocw-prov
+    &__prop
+        &-dark
+            background-color: #2E3D43
+            p
+                color: white
+                font-size: 25px
+                font-family: "helvetica-oblique", sans-serif
+                text-align: center
+                span
+                    color: $p-color
+            .slick-dots
+                margin-top: 3em
+                padding: 0
+                li
+                    border: 2px solid white
+                    background-color: transparent
+                .slick-active
+                    background-color: white !important
+        iframe
+            height: 100%
+
+/*RESPONSIVE*/
+//Tablet
+@include media-breakpoint-down(md)
+    .ocw-prov
+        &__prop
+            padding: 1em
+            iframe
+                height: 100%
+        &__interes
+            &-img-section
+                margin-top: 3em
+            &-car
+                padding: 4em 0 2em 0
+                .slick-dots
+                    padding: 0
+                    margin-top: 2em
+                a
+                    height: 40px

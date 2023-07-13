@@ -1,0 +1,75 @@
+.ocw-menu-responsive
+    position: absolute
+    top: 0
+    left: 0
+    right: 0
+    background: white
+    z-index: 999
+    min-height: 100vh
+    transform: translateX(-200%)
+    transition: .4s
+    &.active
+        transform: translateX(0)
+    &__header
+        background: #F3F5F6
+        &__brand
+            img
+                width: 135px
+        &__btn-close
+            background: none
+            border: none
+            color: black
+            display: inline-block
+    &__body
+        max-height: 85vh
+        overflow-y: scroll
+        .nav-item
+            padding: .3em 0
+            // min-height: 60px
+            border-bottom: 1px solid rgba(#707070, .6)
+            &:last-child
+                border: none
+        .nav-link
+            font-size: 15px
+            display: flex
+            align-items: center
+            &__text
+                color: #505D6C
+                font-family: 'roboto-medium', sans-serif
+                font-size: 15px
+                line-height: 19px
+            &__icon-item
+                color: $p-color
+                display: inline-flex
+                align-items: center
+                justify-content: center
+                box-sizing: border-box
+                width: 31px
+                height: 31px
+                border: 1px solid #C0C9CF
+                border-radius: 50%
+                font-size: 17px
+                margin-right: 10px
+            &__arrow
+                color: #8999A2
+        .submenu
+            width: 100%
+            display: none
+            .nav-item
+                border: none
+                display: flex
+                align-items: center
+                padding-left: 4rem
+                flex-wrap: wrap
+            .submenu
+                .nav-item
+                     padding-left: 1rem
+            .ocw-operacion
+                span, svg
+                    color: $p-color !important
+            &-2
+                width: 100%
+                .nav-link__text
+                    color: $p-color !important
+                .nav-item
+                     padding-left: 2rem

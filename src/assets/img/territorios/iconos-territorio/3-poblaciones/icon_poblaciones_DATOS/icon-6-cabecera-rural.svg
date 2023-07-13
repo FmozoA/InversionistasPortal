@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 24.0.2, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 70 70" style="enable-background:new 0 0 70 70;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:none;stroke:#19A301;stroke-width:2.4;stroke-linecap:round;stroke-linejoin:round;}
+	.st1{fill:none;stroke:#82D400;stroke-width:2.4;stroke-linecap:round;stroke-linejoin:round;}
+	.st2{fill:none;}
+	.st3{fill:none;stroke:#19A301;stroke-width:1.5;stroke-linecap:round;stroke-linejoin:round;}
+	.st4{fill:none;stroke:#FFFFFF;stroke-width:1.5;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
+</style>
+<symbol  id="OCENSA-EXT" viewBox="-35 -7.5 70 15">
+	<g>
+		<line id="Line_4_1_" class="st0" x1="6.7" y1="0" x2="15.1" y2="0"/>
+		<line id="Line_5_1_" class="st0" x1="23.4" y1="0" x2="24.1" y2="0"/>
+		<line id="Line_6_1_" class="st0" x1="-24.1" y1="0" x2="-15.8" y2="0"/>
+		<line id="Line_7_1_" class="st1" x1="-16.3" y1="0" x2="-1.7" y2="0"/>
+	</g>
+	<rect x="-35" y="-7.5" class="st2" width="70" height="15"/>
+</symbol>
+<g id="Capa_2">
+	<g>
+		<g>
+			<defs>
+				<rect id="SVGID_1_" y="55" width="70" height="15"/>
+			</defs>
+			<clipPath id="SVGID_2_">
+				<use xlink:href="#SVGID_1_"  style="overflow:visible;"/>
+			</clipPath>
+			<g style="clip-path:url(#SVGID_2_);">
+				
+					<use xlink:href="#OCENSA-EXT"  width="70" height="15" x="-35" y="-7.5" transform="matrix(1 0 0 -1 35 62.5)" style="overflow:visible;"/>
+			</g>
+		</g>
+		<rect y="0" class="st2" width="70" height="70"/>
+		<g>
+			<circle id="Ellipse_2_131_" class="st3" cx="14.3" cy="37" r="5.8"/>
+			<line class="st4" x1="14.1" y1="45.5" x2="14.1" y2="54.2"/>
+			<line class="st4" x1="9.8" y1="54.2" x2="61.5" y2="54.2"/>
+			<line class="st4" x1="38.8" y1="37.4" x2="38.8" y2="54.1"/>
+			<polyline class="st4" points="43.9,39.7 26.1,29.8 21.5,32 			"/>
+			<g>
+				<path class="st4" d="M58.7,20H58c1-0.8,1.7-2,1.7-3.5c0-2.3-1.7-4.2-3.9-4.2H54c0.3-0.5,0.5-1.1,0.5-1.8c0-2.3-2.1-4.1-4.7-4.1
+					S45,8.2,45,10.5c0,0.6,0.2,1.2,0.5,1.8h-1.9c-2.1,0-3.9,1.9-3.9,4.2c0,1.5,0.7,2.7,1.7,3.5h-0.8c-3.2,0-5.7,2.8-5.7,6.2
+					s2.6,6.2,5.7,6.2h18c3.2,0,5.7-2.8,5.7-6.2S61.9,20,58.7,20z"/>
+				<line class="st4" x1="49.7" y1="54.2" x2="49.7" y2="19.6"/>
+				<line class="st4" x1="54.7" y1="24.6" x2="50.3" y2="27.3"/>
+			</g>
+		</g>
+	</g>
+</g>
+</svg>

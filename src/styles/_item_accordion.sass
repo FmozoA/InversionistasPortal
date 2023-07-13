@@ -1,0 +1,78 @@
+.ocw-item-accordion
+    position: relative
+    border-bottom: 2px solid $p-color
+    padding-bottom: 2em
+    &__desc
+        &__title
+            color: $p-color
+            font-size: 22px
+            font-family: "helvetica-light", sans-serif
+    &__btn
+        position: absolute
+        top: 20%
+        right: 0
+        display: contents
+        cursor: pointer
+        font-size: 20px
+        color: $p-color
+        &-close
+            display: none
+    &__btn
+        &-open
+            position: absolute
+            right: 0
+            top: 7px
+        &-close
+            position: absolute
+            right: 0
+            top: 7px
+    .active
+        .ocw-item-accordion__btn
+            &-close
+                display: block
+            &-open
+                display: none
+    &__content-body
+        background-color:   rgba(#C0CBD1, .2)
+        padding: 2em 4em
+        min-width: 1110px
+    &__table
+        width: 100%
+        tr
+            th
+                color: $p-color
+                font-size: 16px
+                font-family: 'roboto-light', sans-serif
+                background-color: white
+                padding: 1.5em 0
+                text-align: center
+                border-bottom: 1px solid #707070
+                font-weight: normal
+            td
+                text-align: center
+                padding: 1.5em 0
+                font-size: 16px
+                font-family: 'roboto-light', sans-serif
+                border-bottom: 1px solid #707070
+                &.variant-1
+                    color: $p-color
+    &__description
+        font-size: 14px
+        font-family: "helvetica-light", sans-serif
+        margin-top: 1.5em
+    &__content
+        display: none
+        margin-top: 1.5em
+@media(max-width: 1317px)
+    .ocw-item-accordion
+        &__content
+            overflow-x: scroll
+            &::-webkit-scrollbar
+                width: 20px
+                height: 3px
+            &::-webkit-scrollbar-track
+                background: #96A6B0
+                height: 1px
+            &::-webkit-scrollbar-thumb
+                background-color: $p-color
+                height: 10px

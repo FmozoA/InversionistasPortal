@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="200" height="200" viewBox="0 0 200 200">
+  <g id="Grupo_24891" data-name="Grupo 24891" transform="translate(-985 -4500)">
+    <path id="Trazado_29515" data-name="Trazado 29515" d="M100,0A100,100,0,1,1,0,100,100,100,0,0,1,100,0Z" transform="translate(985 4500)" fill="#8e9aa2"/>
+    <g id="Grupo_24859" data-name="Grupo 24859" transform="translate(1050 4565)">
+      <g id="Grupo_24855" data-name="Grupo 24855">
+        <g id="Grupo_24854" data-name="Grupo 24854">
+          <g id="Grupo_24853" data-name="Grupo 24853">
+            <line id="Line_4" data-name="Line 4" x2="8.375" transform="translate(41.677 62.5)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.4"/>
+            <line id="Line_5" data-name="Line 5" x2="0.679" transform="translate(58.405 62.5)" fill="none" stroke="#19a301" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.4"/>
+            <line id="Line_6" data-name="Line 6" x2="8.298" transform="translate(10.916 62.5)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.4"/>
+            <line id="Line_7" data-name="Line 7" x2="14.628" transform="translate(18.674 62.5)" fill="none" stroke="#82d400" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.4"/>
+          </g>
+          <rect id="Rectángulo_7946" data-name="Rectángulo 7946" width="70" height="15" transform="translate(0 55)" fill="none"/>
+        </g>
+      </g>
+      <g id="Grupo_24858" data-name="Grupo 24858">
+        <circle id="Ellipse_2" data-name="Ellipse 2" cx="5.795" cy="5.795" r="5.795" transform="translate(48.333 19.367)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+        <g id="Grupo_24856" data-name="Grupo 24856">
+          <line id="Línea_1013" data-name="Línea 1013" y2="4.292" transform="translate(21.716 26.021)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+          <line id="Línea_1014" data-name="Línea 1014" y2="4.292" transform="translate(28.002 26.021)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+          <path id="Trazado_5700" data-name="Trazado 5700" d="M30.825,31.591,28,30.323" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+          <line id="Línea_4169" data-name="Línea 4169" y1="4.79" transform="translate(39.585 48.92)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+          <path id="Trazado_5700-2" data-name="Trazado 5700" d="M39.64,53.707H10.077V39.767a6.793,6.793,0,0,1,1.1-3.82,5.123,5.123,0,0,1,2.062-1.841l8.476-3.793" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+          <line id="Línea_1016" data-name="Línea 1016" x1="3.143" y1="3.563" transform="translate(21.716 30.313)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+          <line id="Línea_1017" data-name="Línea 1017" y1="3.563" x2="3.143" transform="translate(24.859 30.313)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+          <path id="Trazado_5701" data-name="Trazado 5701" d="M30.754,21.006a5.919,5.919,0,0,1-11.839,0" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+          <path id="Trazado_5702" data-name="Trazado 5702" d="M18.91,21.006V16.919a5.92,5.92,0,0,1,11.839,0v4.087" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+        </g>
+        <path id="Trazado_29839" data-name="Trazado 29839" d="M55.971,33.689a12.8,12.8,0,0,1-17.7,14.731" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+        <path id="Trazado_29840" data-name="Trazado 29840" d="M38.274,48.42a12.8,12.8,0,0,1,7.811-24.2" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+        <g id="Grupo_24857" data-name="Grupo 24857">
+          <rect id="Rectángulo_7947" data-name="Rectángulo 7947" width="3.344" height="9.163" transform="translate(42.501 33.82)" fill="#fff"/>
+          <rect id="Rectángulo_7948" data-name="Rectángulo 7948" width="8.038" height="0.857" transform="translate(40.27 42.984)" fill="#fff"/>
+          <rect id="Rectángulo_7949" data-name="Rectángulo 7949" width="5.174" height="0.857" transform="translate(40.672 32.963)" fill="#fff"/>
+          <circle id="Elipse_3265" data-name="Elipse 3265" cx="1.53" cy="1.53" r="1.53" transform="translate(42.57 29.049)" fill="#fff"/>
+        </g>
+      </g>
+      <rect id="Rectángulo_7950" data-name="Rectángulo 7950" width="70" height="70" fill="none"/>
+    </g>
+  </g>
+</svg>

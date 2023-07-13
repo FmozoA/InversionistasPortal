@@ -1,0 +1,61 @@
+.ocw-carousel-card-large
+    .slick-dots
+        padding: 0
+
+.ocw-card-divider
+    margin: 3rem 0
+
+
+.ocw-share-button__territorio
+    position: absolute
+    z-index: 2
+    .ocw-share-item
+        width: 45px
+        height: 45px
+        display: flex
+        justify-content: center
+        align-items: center
+        border-radius: 50%
+        background-color: white
+        svg
+            color: #8999A2
+    &:hover
+        svg
+            color: #19a301
+
+.ocw-cont-territorio-info__info__box-title
+    display: flex
+    align-items: center
+    .ocw-cont-territorio-info__info__dep
+        color: $p-color
+        font-family: 'roboto-regular', sans-serif
+        font-size: 13px
+        line-height: 24px
+        margin-left: 1rem
+        padding-left: 1rem
+        border-left: 1px solid #95A6B1
+
+@include media-breakpoint-down(lg)
+    .ocw-carousel-card-large
+        padding: 5rem
+    .ocw-card-divider
+        margin: 3rem 5rem
+    .ocw-col-md-top
+        padding-bottom: .5rem
+    .ocw-col-md-bottom
+        padding-top: .5rem
+@include media-breakpoint-down(sm)
+    .ocw-carousel-card-large
+        padding: 2rem
+    .ocw-card-divider
+        margin: 3rem 1rem
+    .ocw-cont-territorio-info__info__box-title
+        flex-direction: column
+        align-items: flex-start
+        margin-bottom: 1rem
+        .ocw-cont-territorio-info__info__title
+            margin-bottom: 5px
+        .ocw-cont-territorio-info__info__dep
+            margin-left: 0
+            padding-left: 0
+            border: none

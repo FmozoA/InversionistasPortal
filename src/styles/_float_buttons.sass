@@ -1,0 +1,37 @@
+.ocw-float-buttons
+    position: fixed
+    bottom: 1rem
+    right: 1rem
+    list-style: none
+    padding: 0
+    margin: 0
+    z-index: 3
+    display: none
+    &__link
+        width: 56px
+        height: 56px
+        display: flex
+        justify-content: center
+        align-items: center
+        border-radius: 50%
+        border: 1px solid $p-color
+        margin-bottom: 1rem
+        font-size: 20px
+    .ocw-float-buttons__item:last-child
+        .ocw-float-buttons__link
+            margin-bottom: 0px
+    #ocw-back-to-top
+        background-color: $p-color
+        color: white
+    #ocw-map-marker
+        background-color: white
+        color: $p-color
+        display: none
+
+.ocw-page-territorio, #ocw-bto, #ocw-descripcion-del-sistema
+    #ocw-map-marker
+        display: flex
+
+@include media-breakpoint-down(sm)
+    .ocw-float-buttons
+        bottom: 3.5rem

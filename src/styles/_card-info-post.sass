@@ -1,0 +1,88 @@
+.ocw-card-background
+    width: 100%
+    height: 400px
+    display: flex
+    align-items: center
+    &__left
+        width: 70%
+        &__img
+            width: 100%
+            height: 100%
+            object-fit: cover
+    &__right
+        display: flex
+        flex-direction: column
+        justify-content: center
+        background-color: rgba(#2E3D43, .77)
+        width: 70%
+        height: 80%
+        margin-left: -25%
+        margin-right: 15px
+        padding: 2em
+        transition: $tr
+        &__principal-text
+            font-family: 'helvetica', sans-serif
+            color: white
+            font-size: 22px
+            margin-bottom: 15px
+        &__secondary-text
+            font-family: "helvetica-light", sans-serif
+            font-size: 16px
+            color: white
+    .ocw-go-button
+        &__text
+            color: white
+        path
+            stroke: white
+    &:hover
+        .ocw-card-background__right
+            background-color: rgba($p-color, .77)
+
+
+
+@include media-breakpoint-down(lg)
+    .ocw-card-background
+        display: block
+        height: auto
+        &__left
+            width: 100%
+            &__img
+                height: 400px
+        &__right
+            width: 100%
+            height: auto
+            min-height: 350px
+            padding: 1em
+            margin-left: 0px
+            margin-right: 0px
+
+    .ocw-cas-slick-card
+        .slick-slide
+            margin: 20px
+
+@include media-breakpoint-only(md)
+    .ocw-cas-slick-card
+        &.ocw-slick-theme-2
+            .slick-arrow
+                bottom: 10px
+@include media-breakpoint-down(sm)
+    .ocw-card-background
+        display: block
+        height: auto
+        &__left
+            width: 100%
+            &__img
+                height: 400px
+        &__right
+            width: 100%
+            height: auto
+            padding: 1em
+            margin-left: 0px
+            margin-right: 0px
+    .ocw-cas-slick-card
+        &.ocw-slick-theme-2
+            .slick-dots
+                top: 0
+                left: 14%
+            .slick-arrow
+                bottom: 0

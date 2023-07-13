@@ -1,0 +1,587 @@
+.ocw-cont-mapa
+    background-color: white
+    padding: 0em 0px 5em 0px
+    position: relative
+    &__desc
+        padding-right: 5em
+.ocw-mapa
+    height: auto
+    text-align: center
+    background-color: white
+    &__cont-indicators
+        display: flex
+        justify-content: right
+    &__introduction
+        text-align: left
+        margin-bottom: 6em
+        img
+            margin-bottom: 1em
+        p
+            font-family: "helvetica-light"
+    &__view-mobile
+        display: none
+    &__container
+        position: relative
+        width: 1290px
+        margin: auto
+    &__img
+        width: 100%
+        height: auto
+    &__line
+        position: absolute
+    &__rio
+        position: absolute
+        opacity: 0
+        transition: all 1s
+    &__location-modals
+        position: absolute
+        cursor: pointer
+        text-decoration: none !important
+        .ocw-radar
+            animation: 2.5s linear 0s normal none infinite running radar
+            border-radius: 999px
+            height: 30px
+            opacity: 0
+            position: absolute
+            width: 30px
+            left: 0
+            top: 0
+            &:nth-child(1)
+                animation-delay: 0s
+            &:nth-child(2)
+                animation-delay: 0.66s
+            &:nth-child(3)
+                animation-delay: 1.33s
+    &__green
+        .ocw-radar
+            border: 1px solid #00FF4B
+        .ocw-mapa__img-plus
+            background-color: #00FF4B !important
+        .ocw-mapa__img-icon
+            background-color: #00FF4B !important
+    &__orange
+        .ocw-radar
+            border: 1px solid #FF9700
+        .ocw-mapa__img-plus
+            background-color: #FF9700 !important
+        .ocw-mapa__img-icon
+            background-color: #FF9700 !important
+    &__purple
+        .ocw-radar
+            border: 1px solid #8AA6FF 
+        .ocw-mapa__img-plus
+            background-color: #8AA6FF !important  
+        .ocw-mapa__img-icon
+            background-color: #8AA6FF !important
+    &__blue
+        .ocw-radar
+            border: 1px solid #00FFFF 
+        .ocw-mapa__img-plus
+            background-color: #00FFFF  
+        .ocw-mapa__img-icon
+            background-color: #00FFFF
+    &__name-point
+        width: 0
+        overflow: hidden
+    &__icon
+        border-radius: 50%
+        width: 30px
+        height: 30px
+        display: flex
+        justify-content: center
+        align-items: center
+        opacity: 1
+        transition: $tr
+    &__img-plus
+        width: 16px
+        height: 16px
+        border-radius: 50%
+        display: flex
+        justify-content: center
+        align-items: center
+        position: relative
+    &__plus
+        width: 8px
+        height: 8px
+    &__name-point
+        display: flex
+        align-items: center
+        background-color: rgba(0, 0, 0, .5) !important
+        border-radius: 20px
+        position: relative
+        top: -30px
+        transition: $tr
+        width: auto
+        opacity: 0
+        padding-right: .8em
+        span
+            color: white !important
+            margin-left: .5em
+            font-family: 'roboto-c-regular' !important
+            font-size: 12px !important
+        .ocw-mapa__more
+            width: 9px
+            height: 9px
+            margin-left: .5em
+    &__img-icon
+        width: 30px
+        height: 30px
+        border-radius: 50%
+        display: flex
+        justify-content: center
+        align-items: center
+        img
+            width: auto
+            height: 18px
+    &__yellow
+        .ocw-mapa__name-point-yellow
+            display: flex
+        .ocw-mapa__info-item
+            display: flex
+            align-items: center
+            background-color: rgba(0, 0, 0, .5) !important
+            padding: 0 2.5em 0 1em
+            border-radius: 20px
+            height: 30px
+            img
+                width: 9px
+                height: 9px
+                margin-right: .5em
+            span
+                color: white !important
+                font-size: 14px !important
+                font-family: 'roboto-c-regular' !important
+        .ocw-mapa__img-icon
+            height: auto
+            position: relative
+            right: 30px
+            img
+                width: 55px
+                height: auto
+    &__yellow-02
+        .ocw-mapa__name-point-yellow
+            display: flex
+        .ocw-mapa__info-item
+            display: flex
+            align-items: center
+            background-color: rgba(0, 0, 0, .5) !important
+            padding: 0 1em 0 2.5em
+            border-radius: 20px
+            height: 30px
+            img
+                width: 9px
+                height: 9px
+                margin-left: .5em
+            span
+                color: white !important
+                font-size: 14px !important
+                font-family: 'roboto-c-regular' !important
+        .ocw-mapa__img-icon
+            height: auto
+            position: relative
+            left: 30px
+            img
+                width: 55px
+                height: auto
+    &__location-modals
+        z-index: 1
+        &:hover .ocw-mapa__name-point
+            width: 100%
+            opacity: 1
+        &:hover .ocw-mapa__icon
+            opacity: 0
+        &:hover .ocw-radar
+            display: none
+    &__tooltip
+        position: absolute
+        display: flex
+        flex-flow: column
+        z-index: 1
+        button
+            width: 12px
+            height: 12px
+            border-radius: 50%
+            padding: 0
+            background-color: #00FFFF !important
+            border: 2px solid #FFFFFF
+            margin: auto
+            cursor: auto !important
+        span
+            color: #58FFFF !important
+            font-size: 12px !important
+            font-family: 'roboto-c-italic' !important
+            opacity: 0
+            transition: $tr
+        &:hover span
+            opacity: 1
+
+    // INDICATOR
+    &__indicator
+        border: 1px solid #D6DEE1
+        height: 30px
+        border-radius: 20px
+        display: flex
+        padding: 0 .7em
+        &-item
+            display: flex
+            align-items: center
+            padding: 0 .4em
+        figure
+            width: 10px
+            height: 10px
+            border-radius: 50%
+            margin: 0
+            border: 1px solid #CAD2D8
+            margin-right: .3em
+        span
+            font-size: 12px !important
+            color: #81939F
+            font-family: 'roboto-regular', sans-serif !important
+        .ocw-indicator-yellow
+            background-color: #FFFF10 !important
+        .ocw-indicator-orange
+            background-color: #FF9700 !important
+        .ocw-indicator-green
+            background-color: #00FF4B !important
+        .ocw-indicator-blue
+            background-color: #00FFFF !important
+        .ocw-indicator-purple
+            background-color: #8AA6FF !important
+        
+    // STATISTICS
+    &__cont-stat
+        position: relative
+    &__stat
+        position: absolute
+        display: inline-flex
+        border: 1px solid #D6DEE1
+        background-color: white !important
+        border-radius: 20px
+        padding: 1em
+        text-align: left
+        &-segmentos
+            margin-right: 1.5em
+        &-header
+            display: flex
+            background-color: rgba(#95A6B1, .2) !important
+            border-radius: 20px
+            height: 30px
+            align-items: center
+            margin-bottom: 1em
+            img
+                margin-right: .5em
+                width: 30px
+                height: 30px
+            h5
+                color: #012969 !important
+                font-size: 14px !important
+                margin: 0
+                font-family: 'roboto-bold' !important
+        &-item-seg
+            .ocw-tramo
+                display: flex
+                border-bottom: 1px solid #95A6B1
+                padding-bottom: .4em
+                padding-left: 1.5em
+                position: relative
+                p
+                    color: #012969 !important
+                    font-size: 12.5 !important
+                    font-family: 'roboto-medium' !important
+                    width: 80px
+                    margin: 0
+                span
+                    color: #546374 !important
+                    font-size: 12.5 !important
+                &::before
+                    content: '0'
+                    position: absolute
+                    left: 0
+                    top: 15px
+                    background-color: #29A337 !important
+                    width: 17px
+                    height: 17px
+                    border-radius: 50%
+                    color: white !important
+                    display: flex
+                    justify-content: center
+                    align-items: center
+                    font-family: 'roboto-bold' !important
+                    font-size: 10px !important
+            .ocw-distancia
+                display: flex
+                align-items: center
+                padding-left: 1.5em
+                p
+                    color: #012969 !important
+                    font-size: 12.5 !important
+                    font-family: 'roboto-medium' !important
+                    margin: 0
+                    width: 80px
+                .number
+                    font-size: 23.5 !important
+                    font-family: 'roboto-medium' !important
+                    color: #012969 !important
+                span
+                    color: #546374 !important
+                    font-size: 12.5 !important
+            &:nth-child(1)
+                margin-bottom: .8em
+            .ocw-tramo-02
+                &::before
+                    content: '1'
+        &-item-altura
+            display: flex
+            align-items: center
+            border-bottom: 1px solid #95A6B1
+            padding: .5em 0
+            .arrow
+                width: 17px
+                height: 17px
+                background-color: #29A337 !important
+                border-radius: 50%
+                color: white !important
+                display: flex
+                justify-content: center
+                align-items: center
+                margin-right: 1em
+            p
+                margin: 0
+                font-size: 12.75 !important
+                color: #012969 !important
+                font-family: 'roboto-medium' !important
+                width: 80px
+            .number
+                font-size: 23.5 !important
+                font-family: 'roboto-medium' !important
+                color: #012969 !important
+                margin-right: .5em
+            .date
+                font-size: 12.75 !important
+                font-family: 'roboto-light' !important
+            &:nth-child(4)
+                border: none
+    &__number-location
+        position: absolute
+        border: 1px solid #BFBFBF
+        background-color: white !important
+        width: 12px
+        height: 12px
+        border-radius: 50%
+        display: flex
+        justify-content: center
+        align-items: center
+        span
+            font-size: 9px !important
+            color: #223260 !important
+            line-height: 1em
+            font-family: 'roboto-black' !important
+    .ocw-mapa__container:hover
+        .ocw-mapa__rio
+            opacity: 1
+.ocw-map__info-aditional
+    display: inline-block
+    text-align: left
+    position: absolute
+    &__title
+        color: #223260 !important
+        font-family: 'roboto-c-bold', sans-serif
+        font-size: 12px !important
+        margin-bottom: 5px
+    &__list
+        list-style: none
+        font-family: 'roboto-c-italic', sans-serif !important
+        font-size: 13px !important
+        padding: 0
+        color: #B1B1B1
+        li
+            margin-bottom: .9em
+        .item-number
+            width: 19px
+            height: 19px
+            background-color: #D2D6D8 !important
+            color: #223260 !important
+            font-family: 'roboto-black', sans-serif !important
+            font-size: 12px !important
+            display: inline-flex
+            border-radius: 50%
+            justify-content: center
+            align-items: center
+            margin-right: 5px
+
+.ocw-map__ext-city
+    &__button
+        position: relative
+        background-color: #EAEDEF
+        height: 16px
+        font-size: 10px
+        border-radius: 30px
+        padding: 3px 10px
+        display: inline-flex
+        justify-content: center
+        align-items: center
+        cursor: pointer
+        text-decoration: none !important
+        width: 100%
+        font-family: 'roboto-medium', sans-serif
+        &-text
+            color: #385C6B !important
+        &::after
+            width: 20px
+            height: 20px
+            content: ''
+            position: absolute
+            background-color: white !important
+            border-radius: 50%
+            transform: scale(.7)
+        &.btnIzq
+            &::after
+                left: 0
+        &.btnDer
+            &::after
+                right: 0
+        .flecha-ocensa
+            position: absolute
+            z-index: 1
+            width: 15px
+        &-left-arr
+            left: 8px
+        &-right-arr
+            right: 8px
+    &:hover
+        .flecha-ocensa
+            width: 20px
+    &__name
+        font-size: 21px !important
+        color: #223260 !important
+        margin: 0
+        font-family: 'roboto-c-bold', sans-serif
+
+.flecha-ocensa
+    width: 13px
+    height: 2px
+    display: inline-block
+    position: relative
+    border-radius: 5px
+    transition: all .3s ease-in-out
+    &::before
+       content: ''
+       width: 8px
+       height: 8px
+       position: absolute
+       top: -3px
+       border-radius: 2px
+       transform: rotate(45deg)
+       transition: all .3s ease-in-out
+    &.flecha-derecha
+        &::before
+            right: 0
+            border-top: 2px solid white
+            border-right: 2px solid white
+    &.flecha-izquierda
+        &::before
+            left: 0
+            border-bottom: 2px solid white
+            border-left: 2px solid white
+    &.flecha-blanca
+        background-color: white !important
+    &.flecha-verde
+        background-color: $p-color !important
+        &::before
+            border-color: $p-color !important
+
+@keyframes radar
+    0%
+        opacity: 0
+        transform: scale(0)
+    25%
+        opacity: 0.7
+        transform: scale(0)
+    50%
+        opacity: 1
+        transform: scale(0.5)
+    75%
+        opacity: 0.7
+        transform: scale(1)
+    100%
+        opacity: 0
+        transform: scale(1.5)
+
+@keyframes mobile
+    0%
+        transform: translateX(0)
+    25%
+        transform: translateX(-20px)
+    50%
+        transform: translateX(0)
+    75%
+        transform: translateX(20px)
+    100%
+        transform: translateX(0)
+
+@include media-breakpoint-down(md)
+    .ocw-cont-mapa
+        &__desc
+            padding: 0 5em
+    .ocw-mapa
+        overflow-x: scroll
+        width: 100vw
+        &__cont-indicators
+            justify-content: center
+            margin-top: 1em
+        &__rio
+            opacity: 1
+        &__cont-stat
+            text-align: center
+            margin-top: 2em
+        &__stat
+            bottom: 0
+            position: relative
+    .mobile__stat
+        top: unset
+        left: unset
+        width: 80%
+        margin: auto
+        flex-direction: column
+        margin-top: 2em
+        .ocw-mapa__stat-segmentos
+            margin-right: 0
+            margin-bottom: 2em
+@include media-breakpoint-down(sm)
+    .ocw-cont-mapa
+        &__desc
+            padding: 0 2em
+    .ocw-mapa
+        width: auto
+        &__name-point
+            opacity: 1
+        &__tooltip
+            span
+                opacity: 1
+        &__cont-indicators
+            justify-content: left
+            display: block
+        &__indicator
+            display: block
+            height: auto
+            padding: .5em
+            width: 100%
+        &__indicator-item
+            margin: .5em 0
+            display: inline-flex
+        &__rio
+            opacity: 1
+        &__stat
+            display: inline-block
+            margin-bottom: 3rem
+            &-altura
+                margin-top: 2em
+        &__view-mobile
+            display: block
+            padding: 2em
+            p
+                color: $p-color
+                font-family: 'helvetica'
+            img
+                animation: 2.5s linear 0s normal none infinite running mobile
+                

@@ -1,0 +1,125 @@
+.ocw-etica
+    border-bottom: 1px solid $p-color
+    padding-bottom: 1.5em
+    position: relative
+    &__step
+        display: flex
+        align-items: center
+        justify-content: space-between
+        img
+            width: 105px
+            height: 105px
+            margin-right: 2em
+        h1, h3
+            font-size: 28px
+            color: $p-color
+            font-family: 'helvetica'
+        p
+            font-family: "helvetica-light"
+            font-size: 16px
+            margin: 0
+            position: relative
+            padding-right: 4em
+    &__content
+        background-color: rgba(#C0CBD1, .2)
+        margin-top: 1em
+        text-align: center
+        display: none
+        padding: 2em 1em 1em 1em
+        &-body
+            padding-bottom: 2em
+        &-info
+            display: flex
+            width: 1077px
+            &__link
+                font-family: 'roboto-bold'
+                font-size: 20px
+                color: $p-color
+                text-decoration: none
+                &__text
+                    font-size: 14px
+                    display: block
+                    margin-bottom: .3rem
+                &:hover
+                    text-decoration: none
+                    color: $p-color
+
+        h4
+            color: $p-color
+            font-size: 12px
+            font-family: 'roboto-c-regular'
+            pointer-events: none
+        p
+            font-size: 13px
+            font-family: 'roboto-light'
+            margin-bottom: .7em
+        &-item1
+            width: 10.5%
+        &-item2
+            width: 10%
+        &-item3
+            width: 12.5%
+        &-item4
+            width: 12.5%
+        &-item5
+            width: 12.5%
+        &-item6
+            width: 12.5%
+        &-item7
+            width: 15%
+        &-item8
+            width: 14.5%
+    &__btn
+        position: absolute
+        top: 20%
+        right: 0
+        display: contents
+        cursor: pointer
+        font-size: 20px
+        color: $p-color
+        &-close
+            display: none
+    .active
+        .ocw-etica__btn
+            &-close
+                display: block
+            &-open
+                display: none
+@media (max-width: 1200px)
+    .ocw-etica
+        &__content-body
+            overflow-x: scroll
+            &::-webkit-scrollbar
+                width: 20px
+                height: 3px
+            &::-webkit-scrollbar-track
+                background: #96A6B0
+                height: 1px
+            &::-webkit-scrollbar-thumb
+                background-color: $p-color
+                height: 10px
+
+
+@media (max-width: 575.98px)
+    .ocw-etica
+        &__icon
+            width: 85px !important
+            height: auto !important
+            margin-bottom: 1.5em
+            margin-top: 1em
+        &__step
+            display: block
+            position: relative
+            h1
+                font-size: 25px
+                padding-right: 2em
+            p
+                padding-right: 1em
+        &__content
+            margin-top: 2em
+        &__btn
+            div
+                position: absolute
+                right: 0
+                top: calc( 50% - 10px )
+                z-index: 2

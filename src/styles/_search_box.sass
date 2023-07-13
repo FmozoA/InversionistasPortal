@@ -1,0 +1,97 @@
+.ocw-search-box
+    background: #F1F2F2
+    padding: 5em 0
+    display: none
+    position: relative
+    &::before
+        content: ''
+        width: 20px
+        height: 20px
+        background: #F1F2F2
+        position: absolute
+        top: -10px
+        right: 2.5em
+        transform: rotate(45deg)
+    &__button-close
+        border: none
+        display: block
+        position: absolute
+        right: 4em
+        top: 3em
+    &__form
+        margin-bottom: 3em
+        .ocw-button
+            svg
+                transform: rotate(45deg)
+        .form-group
+            display: flex
+            align-items: center
+    &__input
+        height: 50px
+        padding: 5px 10px
+        padding-left: 30px
+        box-sizing: border-box
+        border: none
+        outline: none
+        background: none
+        color: #505D6C
+        font-size: 34px
+        font-family: 'roboto-light', sans-serif
+        border-bottom: 1px solid #95A6B1
+        width: 100%
+    .ocw-input-group
+        position: relative
+        width: 85%
+        margin-right: 15px
+        &__icon
+            position: absolute
+            left: 0
+            top: 16px
+            svg
+                g
+                    stroke: $p-color
+    .ocw-button-primary
+        background-color: transparent
+        &:hover
+            background-color: $p-color
+    &__title
+        @include ocw-heading-5
+        color: $p-color
+        font-family: 'helvetica', sans-serif
+        font-weight: bold
+        margin-bottom: 1em
+        &.results-text
+            font-size: 35px
+            font-family: 'roboto-regular', sans-serif
+            font-weight: normal
+            line-height: 44px
+            margin: 0
+            display: none
+    &__suggest
+        .nav-item
+            margin-right: 1.5em
+    .ocw-container-section
+        padding: 0 6rem
+@include media-breakpoint-down(md)
+    .ocw-search-box
+        padding: 3em 0
+        &::before
+            display: none
+        &__form
+            .form-group
+                flex-direction: column
+                .ocw-input-group
+                    margin-bottom: 2em
+                    width: 100%
+                    margin-right: 0
+        &__input
+            font-size: 24px
+        .ocw-button
+            display: block
+            width: 100%
+        .ocw-button-primary
+            background-color: $p-color
+            color: white
+        &__button-close
+            top: 1.5em
+            right: 1em

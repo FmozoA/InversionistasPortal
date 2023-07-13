@@ -1,0 +1,191 @@
+/*General*/
+.ocw-cont-nota
+    max-width: 570px
+    margin: auto
+    position: relative
+    .ocw-nota-text
+        font-family: "helvetica-light", sans-serif
+        line-height: 28px
+    .ocw-nota-list-icons
+        margin-top: 30px
+        list-style: none
+        padding: 0
+        margin-bottom: 5em
+        li
+            display: flex
+            margin-bottom: 20px
+            img
+                width: 55px
+                height: 55px
+                margin-right: 15px
+    .ocw-nota-list-icons-v2
+        margin-top: 30px
+        list-style: none
+        margin-bottom: 5em
+        li
+            margin-bottom: 20px
+            position: relative
+            &::before
+                position: absolute
+                content: ''
+                width: 8px
+                height: 8px
+                background-color: white
+                border: 2px solid #19A301
+                border-radius: 50%
+                top: 10px
+                left: -20px
+/*Intro*/
+.ocw-nota-intro
+    text-align: center
+    margin-top: 8em
+    h1
+        text-align: center
+        font-family: 'roboto-regular'
+        font-size: 35px
+        margin-bottom: 1em
+    &__author
+        font-family: 'roboto-regular'
+        margin-top: 2em
+        display: block
+    &__line
+        display: block
+        margin: auto
+    &__arrow-back
+        position: absolute
+        left: -300px
+        top: 40px
+    .ocw-share-item
+        position: absolute
+        right: -300px
+        top: 30px
+        path
+            fill: #96A6B0
+            transition: $tr
+        &:hover path
+            fill: $p-color
+
+/*Contenido Nota*/
+.ocw-nota-text
+    font-family: "helvetica-light", sans-serif
+    line-height: 28px
+    a
+        color: $p-color
+        font-weight: 700
+        text-decoration: underline
+    &__variant-2
+        color: $p-color
+        font-size: 25px
+        font-family: 'noto-serif-bold-italic'
+    &__variant-3
+        font-size: 22px
+        color: $p-color
+        font-family: "helvetica-oblique", sans-serif
+.ocw-nota-subtitle
+    font-family: 'helvetica'
+    font-size: 18px
+.ocw-nota-section-1
+    height: auto
+    display: flex
+    &__left
+        width: 50%
+        height: auto
+        padding: 0
+        &__bg-img
+            width: 100%
+            height: 100%
+            object-fit: cover
+    &__right
+        width: 50%
+        height: auto
+        padding: 7em
+        background-color: #29A337
+        &__text
+            color: white
+            font-family: "helvetica-oblique", sans-serif
+            font-size: 22px
+            line-height: 35px
+        &__lines
+            width: 70px
+            height: auto
+#ocw-nota-gallery
+    .ocw-nota-cont-gallery
+        width: 100%
+        padding: 2em
+        transition: .4s
+        &__item
+            width: 100%
+            object-fit: cover
+            transition: .4s
+        &__text
+            opacity: 0
+            transition: .4s
+            font-family: 'helvetica-light', sans-serif
+            font-size: 12px
+            color: black
+            display: block
+            margin-top: 10px
+    .ocw-slick-notas
+        .slick-dots
+            padding: 0
+            margin-top: 20px
+        .slick-active
+            &:hover .ocw-nota-cont-gallery__text
+                opacity: 1
+    .ocw-slick-notas
+        .slick-active
+            &:hover .ocw-nota-cont-gallery
+                transform: scale(1.1)
+#ocw-notas-foto-destacada
+    .ocw-container-section
+        .ocw-foto-destacada
+            width: 100%
+            max-height: 575px
+#ocw-notas-foto-destacada
+    .ocw-foto-destacada-text
+        font-family: 'helvetica-light', sans-serif
+        font-size: 12px
+        color: black
+        margin-top: 10px
+        display: block
+#ocw-nota
+    .ocw-header-principal
+        background-color: white !important
+        border-bottom: 1px solid #93A4AF
+        height: auto
+
+@include media-breakpoint-up(lg)
+    #cont-nota-video
+        max-width: 720px
+
+@include media-breakpoint-down(md)
+    .ocw-nota-section-1
+        display: contents
+    .ocw-nota-section-1
+        &__right
+            padding: 5em
+    #ocw-nota-gallery .ocw-nota-cont-gallery__text
+        opacity: 1
+    .ocw-nota-cont-gallery
+        padding: 3em !important
+    #ocw-notas-foto-destacada .ocw-container-section .ocw-foto-destacada
+        height: 400px
+    .ocw-cont-nota
+        margin-top: 4em
+        margin-bottom: 4em
+    .ocw-nota-intro
+        margin-top: 10em
+        margin-bottom: 3em
+        &__arrow-back
+            top: -40px
+            left: 0
+        .ocw-share-item
+            top: -50px
+            right: 0
+
+@include media-breakpoint-down(sm)
+    .ocw-nota-section-1
+        &__right
+            padding: 2em
+    .ocw-nota-cont-gallery
+        padding: 0 !important

@@ -1,0 +1,293 @@
+/*RESETS*/
+body, html
+    overflow-x: hidden
+/*FONTS CLASSES*/
+
+// Roboto
+.ocw-roboto-regular
+    font-family: 'roboto-regular', sans-serif
+.ocw-roboto-light
+    font-family: 'roboto-light', sans-serif
+.ocw-roboto-italic
+    font-family: 'roboto-italic', sans-serif
+.ocw-roboto-bold-italic
+    font-family: 'roboto-bold-italic', sans-serif
+.ocw-roboto-medium
+    font-family: 'roboto-medium', sans-serif
+.ocw-roboto-medium-italic
+    font-family: 'roboto-medium-italic', sans-serif
+.ocw-roboto-bold
+    font-family: 'roboto-bold', sans-serif
+.ocw-roboto-black
+    font-family: 'roboto-black', sans-serif
+
+// Roboto condensed
+.ocw-roboto-c-regular
+    font-family: 'roboto-c-regular', sans-serif
+.ocw-roboto-c-light
+    font-family: 'roboto-c-light', sans-serif
+.ocw-roboto-c-light-italic
+    font-family: 'roboto-c-lightItalic', sans-serif
+.ocw-roboto-c-bold
+    font-family: 'roboto-c-bold', sans-serif
+.ocw-roboto-c-bold-italic
+    font-family: 'roboto-c-boldItalic', sans-serif
+
+
+// Helvetica
+.ocw-helvetica
+    font-family: 'helvetica', sans-serif
+.ocw-helvetica-cn
+    font-family: 'helvetica-cn', sans-serif
+.ocw-helvetica-light
+    font-family: 'helvetica-light', sans-serif
+
+// Cabin
+.ocw-cabin-regular
+    font-family: 'cabin-regular', sans-serif
+.ocw-cabin-semibold
+    font-family: 'cabin-regular', sans-serif
+.ocw-cabin-bold
+    font-family: 'cabin-semibold', sans-serif
+.ocw-cabin-bold-italic
+    font-family: 'cabin-bold-italic', sans-serif
+.ocw-cabin-italic
+    font-family: 'cabin-italic', sans-serif
+.ocw-cabin-medium
+    font-family: 'cabin-medium', sans-serif
+.ocw-cabin-semibold-italic
+    font-family: 'cabin-semibold-italic', sans-serif
+
+/*VARIABLES*/
+    
+// Colors
+$p-color: #19A301
+$s-color: #000000
+$inactive: #DFE4E7
+
+// Gray
+$p-gray: #2E3D43
+$s-gray: #8999A2
+$t-gray: #C0C9CF
+$c-gray: #F3F5F6
+
+$inactive: #C6CFD5
+
+$tr: all .3s
+
+/*MIXINS*/
+
+// Fonts
+@mixin ocw-heading-1
+    font-size: 35px
+    line-height: 45px
+
+@mixin ocw-heading-2
+    font-size: 28px
+    line-height: 38px
+
+@mixin ocw-heading-3
+    font-size: 22px
+    line-height: 30px
+
+@mixin ocw-heading-4
+    font-size: 18px
+    line-height: 25px
+
+@mixin ocw-heading-5
+    font-size: 16px
+    line-height: 22px
+
+@mixin ocw-heading-6
+    font-size: 14px
+    line-height: 20px
+    
+@mixin ocw-l-text-bold
+    font-size: 20px
+    line-height: 32px
+    font-weight: bold
+
+@mixin ocw-l-text-regular
+    font-size: 20px
+    line-height: 32px
+
+@mixin ocw-l-text-bold
+    font-size: 20px
+    line-height: 32px
+    font-weight: bold
+
+@mixin ocw-m-text-regular
+    font-size: 18px
+    line-height: 30px
+
+@mixin ocw-m-text-bold
+    font-size: 18px
+    line-height: 30px
+    font-weight: bold
+
+@mixin ocw-n-text-regular
+    font-size: 16px
+    line-height: 28px
+
+@mixin ocw-n-text-bold
+    font-size: 16px
+    line-height: 28px
+    font-weight: bold
+
+@mixin ocw-s-text-regular
+    font-size: 14px
+    line-height: 22px
+
+@mixin ocw-s-text-bold
+    font-size: 14px
+    line-height: 22px
+    font-weight: bold
+
+@mixin ocw-xs-text-regular
+    font-size: 12px
+    line-height: 18px
+
+@mixin ocw-xs-text-bold
+    font-size: 12px
+    line-height: 18px
+    font-weight: bold
+
+.ocw-button
+    font-family: 'helvetica'
+    @include ocw-n-text-regular
+    display: inline-block
+    padding: 10px 22px
+    border: 1px solid
+    box-sizing: border-box
+    text-decoration: none
+    transition: $tr
+    height: 50px
+    &:hover
+        text-decoration: none
+    &-icon
+        svg
+            margin-left: 5px
+    &-primary
+        color: $p-color
+        border-color: $p-color
+        background-color: white
+        &:hover
+            background-color: $p-color
+            color: white
+    &-secondary
+        color: white
+        border-color: $p-color
+        background-color: $p-color
+        &:hover
+            background-color: white
+            color: $p-color
+    &-third
+        color: black
+        border-color: $s-gray
+        background-color: white
+        &:hover
+            background-color: $s-gray
+            color: white
+    &-aux
+        background-color: $s-gray
+        color: white
+        border-color: $s-gray
+        &:hover
+            background-color: white
+            color: black
+    &-mixed
+        background-color: white
+        color: black
+        border-color: $p-gray
+        svg
+            path
+                stroke: $p-color
+                fill: $p-color
+        &:hover
+            background-color: $p-gray
+            color: white
+        &-dark
+            background-color: $p-gray
+            color: white
+            border-color: $p-gray
+            svg
+                path
+                    stroke: $p-color
+                    fill: $p-color
+            &:hover
+                color: black
+                background-color: white
+
+.ocw-button-link
+    color: $p-color
+    @include ocw-n-text-regular
+    font-family: 'helvetica', sans-serif
+    text-decoration: none
+    svg
+        margin-left: 5px
+    &:hover
+        text-decoration: none
+        color: $p-color
+        font-weight: bold
+    
+.ocw-button-left-icon
+    @include ocw-n-text-regular
+    font-family: 'helvetica', sans-serif
+    color: black
+    svg
+        margin-right: 5px
+        path
+            stroke: $s-gray
+            fill: $s-gray
+    &:hover
+        color: $p-color
+
+.ocw-button-left-bullet
+    @include ocw-n-text-regular
+    font-family: 'helvetica', sans-serif
+    color: $p-color
+    &__text
+        position: relative
+        display: inline-flex
+        align-items: center
+        &::before
+            content: ''
+            width: 7px
+            height: 7px
+            margin-right: 10px
+            background-color: $p-color
+            display: inline-block
+    &:hover
+        color: $p-color
+
+.ocw-container-section
+    width: 100%
+    margin: auto
+    max-width: 1920px
+    padding: 4rem 6rem
+    overflow: hidden
+
+.ocw-p-6
+    padding: 6rem
+
+.ocw-bg-gray
+    background-color: #F3F5F6
+
+.ocw-bg-blue
+    background-color: #2E3D43
+
+.ocw-bg-green
+    background-color: #19A51A
+
+.ocw-text-decoration
+    text-decoration-color: $p-color !important
+    h1
+        text-decoration-color: $p-color !important
+
+@include media-breakpoint-down(md)
+    .ocw-container-section
+        padding: 1rem
+
+@include media-breakpoint-down(sm)
+    .ocw-p-6
+        padding: 3rem

@@ -1,0 +1,36 @@
+#boy-ecosistemas
+    .ocw-text-boy-ecosistemas
+        font-family: "helvetica-light", sans-serif
+        font-size: 16px
+    .ocw-grid-gallery__cont-video 
+        img
+            height: 100%
+
+@include media-breakpoint-up(lg)
+    #boy-clima, #boy-ecosistemas
+        .ocw-grid-gallery__cont-video
+            height: 440px
+
+@include media-breakpoint-down(lg)
+    #ocw-boy-hidro-gallery
+        padding: 0
+    #boy-fauna
+        .cas-fauna__gallery
+            padding-left: 2rem
+
+@include media-breakpoint-down(sm)
+    #ocw-boy-hidro-gallery, #boy-fauna
+        margin-bottom: 1rem
+        .ocw-btn-lightbox
+            right: 30px
+        .ocw-share-item
+            left: 30px
+    #boy-fauna
+        margin-bottom: 3rem
+        .boy-fauna-gallery
+            padding: 0
+    #boy-ecosistemas
+        .ocw-grid-gallery__cont-video
+            height: 56%
+            img
+                height: 240px

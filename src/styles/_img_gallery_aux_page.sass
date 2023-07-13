@@ -1,0 +1,35 @@
+.ocw-gallery-aux__grid
+    display: grid
+    grid-template-columns: repeat(auto-fit, minmax(min(100%, 350px), 1fr))
+    gap: 2rem
+    
+.ocw-gallery-aux__grid__item
+    position: relative
+    display: none
+    .ocw-share-item
+        left: unset
+        right: 15px
+
+.ocw-gallery-aux__grid__item:hover
+    .ocw-btn-lightbox
+        opacity: 1
+
+.ocw-gallery-aux__show-more
+    color: $p-color
+    font-family: 'helvetica', sans-serif
+    font-size: 16px
+    display: none
+    align-items: center
+    &__icon
+        font-size: 20px
+        margin-left: 5px
+        &.icon-minus
+            display: none
+    &:hover
+        text-decoration: none
+        color: $p-color
+
+@include media-breakpoint-up(xl)
+    .ocw-gallery-aux__grid
+        display: grid
+        grid-template-columns: repeat(3, 1fr)

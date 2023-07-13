@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 24.0.2, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 70 70" style="enable-background:new 0 0 70 70;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:none;stroke:#19A301;stroke-width:2.4;stroke-linecap:round;stroke-linejoin:round;}
+	.st1{fill:none;stroke:#82D400;stroke-width:2.4;stroke-linecap:round;stroke-linejoin:round;}
+	.st2{fill:none;}
+	.st3{fill:#999999;}
+	.st4{fill:none;stroke:#19A301;stroke-width:1.5;stroke-linecap:round;stroke-linejoin:round;}
+	.st5{fill:none;stroke:#000000;stroke-width:1.5;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
+	.st6{fill:none;stroke:#000000;stroke-width:1.394;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
+	.st7{fill:none;stroke:#000000;stroke-width:0.224;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
+	.st8{fill:none;stroke:#000000;stroke-width:1.2878;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
+	.st9{fill:none;stroke:#000000;stroke-width:1.6609;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
+	.st10{fill:none;stroke:#00A800;stroke-width:1.6707;stroke-miterlimit:10;}
+	.st11{fill:none;stroke:#00A800;stroke-width:1.5;stroke-miterlimit:10;}
+	.st12{fill:none;stroke:#FFFFFF;stroke-width:1.5;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
+	.st13{fill:none;stroke:#19A301;stroke-width:1.5;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
+	.st14{fill:none;stroke:#000000;stroke-width:1.2721;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
+	.st15{fill:none;stroke:#000000;stroke-width:1.3075;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
+	.st16{fill:none;stroke:#19A301;stroke-width:1.3145;stroke-linecap:round;stroke-linejoin:round;}
+	.st17{fill:none;stroke:#000000;stroke-width:1.5545;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
+	.st18{fill:none;stroke:#FFFFFF;stroke-width:1.5944;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
+	.st19{fill:none;stroke:#FFFFFF;stroke-width:1.4947;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
+	.st20{fill:none;stroke:#FFFFFF;stroke-width:1.6588;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
+	.st21{fill:none;stroke:#000000;stroke-width:1.5763;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
+	.st22{fill:none;stroke:#000000;stroke-width:1.6588;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
+	.st23{stroke:#000000;stroke-width:0.3431;stroke-miterlimit:10;}
+	.st24{stroke:#000000;stroke-width:0.4369;stroke-miterlimit:10;}
+	.st25{stroke:#000000;stroke-width:0.4183;stroke-miterlimit:10;}
+</style>
+<symbol  id="OCENSA-EXT" viewBox="-35 -7.5 70 15">
+	<g>
+		<line id="Line_4_2_" class="st0" x1="6.68" y1="0" x2="15.05" y2="0"/>
+		<line id="Line_5_2_" class="st0" x1="23.41" y1="0" x2="24.08" y2="0"/>
+		<line id="Line_6_2_" class="st0" x1="-24.08" y1="0" x2="-15.79" y2="0"/>
+		<line id="Line_7_2_" class="st1" x1="-16.33" y1="0" x2="-1.7" y2="0"/>
+	</g>
+	<rect x="-35" y="-7.5" class="st2" width="70" height="15"/>
+</symbol>
+<g id="Capa_2">
+</g>
+<g id="Capa_1">
+	<g>
+		
+			<use xlink:href="#OCENSA-EXT"  width="70" height="15" x="-35" y="-7.5" transform="matrix(1 0 0 -1 35 62.5)" style="overflow:visible;"/>
+		<rect class="st2" width="70" height="70"/>
+		<g>
+			<circle id="Ellipse_2_21_" class="st4" cx="20.8" cy="20.64" r="5.8"/>
+			<polyline class="st5" points="20.3,12.3 22.84,10.26 25.65,11.88 26.99,9.42 30.23,10.9 30.23,16.03 33.74,18.57 40.71,20.47 
+				45.28,26.24 44.79,30.81 40.15,33.98 40.64,39.04 45.1,45.07 48.59,45.07 49.75,48.56 54.99,47.34 54.99,50.02 51.33,50.58 
+				47.11,53.75 40.57,52.2 38.6,52.55 36.84,54.38 32.69,50.79 32.83,47.63 28.04,42.49 28.18,35.59 32.27,32.5 29.59,25.39 
+				28.5,24.47 			"/>
+		</g>
+	</g>
+</g>
+</svg>

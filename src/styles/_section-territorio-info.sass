@@ -1,0 +1,200 @@
+
+.ocw-img-gallery-aux-item
+    video
+        width: 100%
+        height: 480px
+        object-fit: cover 
+
+@include media-breakpoint-down(lg)
+    .ocw-img-gallery-aux-item
+        video
+            width: 100%
+            height: 380px
+            object-fit: cover 
+
+@include media-breakpoint-down(sm)
+    .ocw-img-gallery-aux-item
+        video
+            width: 100%
+            height: 230px
+            object-fit: cover 
+
+.ocw-cont-territorio-info
+    width: 100%
+    &__info
+        width: 100%
+        &__icon
+            width: 70px
+            height: 70px
+            object-fit: cover
+        &__title
+            font-family: 'helvetica-light', sans-serif !important
+            font-size: 28px
+            margin: 15px 0px
+        &__desc
+            font-family: 'helvetica-light', sans-serif !important
+            font-size: 16px
+            line-height: 28px
+    &__img-map
+        width: 100%
+        position: relative
+        img
+            width: 100%
+        .ocw-share-item
+            position: absolute
+            bottom: 15px
+            z-index: 2
+            width: 45px
+            height: 45px
+            display: flex
+            justify-content: center
+            align-items: center
+            border-radius: 50%
+            background-color: white
+            svg
+                color: #8999A2
+        &.button-right
+            .ocw-share-item
+                right: 15px
+        &.button-left
+            .ocw-share-item
+                left: 15px
+        &__modal
+            position: fixed
+            top: 0
+            left: 0
+            right: 0
+            display: none
+            justify-content: center
+            align-items: center
+            z-index: 1000
+            height: 100vh
+            background-color: white
+            &__wrap
+                width: 100%
+                padding: 6rem
+                max-width: 1290px
+                margin: auto
+                .ocw-img-gallery-aux-item
+                    img
+                        max-height: 600px
+                        object-fit: contain
+                    video
+                        width: 100%
+                        max-height: 600px
+                        object-fit: cover
+        .ocw-cas-slick
+            position: relative
+            &.ocw-slick-theme-2
+                .slick-dots
+                    position: absolute
+                    bottom: -60px
+                    top: unset !important
+                    width: 87%
+                    margin-left: 13%
+                    z-index: 3
+                .slick-arrow
+                    bottom: -60px
+
+.ocw-cas-slick-captions__item, .ocw-slides-indicators
+    font-family: 'roboto-light', sans-serif
+    font-size: 14px
+
+.ocw-cas-slick-captions, .ocw-slides-indicators
+    max-width: 600px
+    margin: auto
+
+
+.ocw-img-gallery-aux-item
+    position: relative
+
+
+.ocw-btn-lightbox
+    position: absolute
+    top: 20px
+    right: 20px
+    width: 29px
+    height: 29px
+    background-color: white
+    border-radius: 50%
+    display: flex
+    justify-content: center
+    align-items: center
+    color: #8999A2
+    z-index: 1
+    opacity: 0
+    transition: .3s
+.ocw-btn-close-modal-gallery
+    color: #8999A2
+    background: none
+    border: none
+    position: absolute
+    top: 4rem
+    right: 4rem
+    font-size: 30px
+
+.ocw-aux-gallery:hover
+    .ocw-btn-lightbox
+        opacity: 1
+
+@media (min-width: 900px) and (max-width: 1440px)
+    .ocw-cont-territorio-info__img-map
+        &__modal
+            &__wrap
+                .ocw-img-gallery-aux-item
+                    img
+                        max-width: 450px
+                        margin: auto
+    
+
+@include media-breakpoint-down(lg)
+    .ocw-cont-territorio-info
+        display: block
+        .ocw-cas-slick
+            width: 100%
+            .slick-item
+                img
+                    width: 100%
+    .ocw-cont-territorio-info
+        &__info
+            margin-bottom: 30px
+            padding: 0
+    .ocw-cont-territorio-info__img-map
+        .ocw-share-item
+            right: 2em
+    .ocw-btn-lightbox
+        opacity: 1
+@include media-breakpoint-down(sm)
+    .ocw-cont-territorio-info
+        display: block
+        &__info
+            margin-bottom: 0px
+    
+    .ocw-cont-territorio-info__img-map
+        .ocw-share-item
+            width: 42px
+            height: 42px
+        &.button-right 
+            .ocw-share-item
+                right: 15px
+                bottom: 15px
+        &.button-left 
+            .ocw-share-item
+                left: 15px
+                bottom: 15px
+        &__modal
+            &__wrap
+                padding: 2rem
+        .ocw-cas-slick
+            &.ocw-slick-theme-2
+                .slick-dots
+                    width: 70%
+                    margin-left: 12%
+    .ocw-btn-close-modal-gallery
+        right: 1rem
+        top: 2rem
+    .ocw-btn-lightbox
+        right: 15px
+        top: 15px
+    
+        

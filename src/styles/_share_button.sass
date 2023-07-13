@@ -1,0 +1,64 @@
+.ocw-share-item
+    position: relative
+    &__box
+        padding: 5px
+        box-sizing: border-box
+        z-index: 2
+        &__top
+            padding: 5px
+            display: flex
+            justify-content: space-between
+            align-items: center
+            &__text
+                font-size: 16px
+                font-family: 'helvetica', sans-serif
+                color: $p-color
+            &__close
+                color: #707070
+                margin-right: 5px
+                font-size: 18px
+                cursor: pointer
+        &__bottom
+            &__list
+                justify-content: space-between
+                flex-wrap: nowrap
+    &__button-social
+        padding: 0 !important
+        display: inline-flex
+        width: 36px
+        height: 36px
+        border-radius: 50%
+        border: 1px solid $inactive
+        color: $inactive
+        align-items: center
+        justify-content: center
+        margin: 5px
+        transition: $tr
+        svg
+            path
+                fill: $inactive
+        &:hover
+            border-color: $p-color
+            svg
+                path
+                    fill: $p-color
+
+.tooltip
+    z-index: 2                
+.tooltip-inner
+    background-color: white
+    border: 1px solid #96A6B0
+    border-radius: 0px
+    max-width: 230px
+.tooltip.show
+    opacity: 1
+.bs-tooltip-bottom .arrow::before, .bs-tooltip-auto[x-placement^=bottom] .arrow::before
+    background-color: white
+    width: 10px
+    height: 10px
+    border-bottom: none
+    border-width: unset
+    border-top: 1px solid #96A6B0
+    border-left: 1px solid #96A6B0
+    transform: rotate(45deg)
+    bottom: -6px

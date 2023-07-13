@@ -1,0 +1,31 @@
+#ocw-sala-prensa
+    .ocw-intro-hero
+        height: 70vh
+.ocw-sala
+    &__video
+        background-color: #F3F5F6
+    &__news
+        .ocw-card-prev-new__cover
+            height: auto
+
+.ocw-card-prev__link-video
+    position: absolute
+    z-index: 1
+    left: 43%
+    top: 80px
+    width: 70px
+    height: 70px
+    background-color: white
+    display: flex
+    justify-content: center
+    align-items: center
+    border-radius: 50%
+    transition: $tr
+    svg
+        color: $p-color
+        font-size: 2em
+        transition: $tr
+    &:hover
+        background-color: $p-color
+    &:hover svg
+        color: white

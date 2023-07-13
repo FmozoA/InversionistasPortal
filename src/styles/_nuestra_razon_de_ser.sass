@@ -1,0 +1,249 @@
+.ocw-razon
+    &__mision
+        &-img
+            width: 100%
+            height: 100%
+            object-fit: cover
+        &-left
+            background-color: rgba(192,203,209,.2)
+            display: flex
+            align-items: center
+            padding: 8em
+            h2
+                font-size: 28px
+                line-height: 38px
+                margin-top: .5em
+                color: black
+            p
+                color: black
+        &-right
+            padding-left: 0
+            padding-right: 0
+            .ocw-share-item
+                right: 8em
+                bottom: 2em
+    &__vision
+        height: 600px
+        background-position: center
+        background-repeat: no-repeat
+        background-size: cover
+        position: relative
+        display: flex
+        align-items: center
+        &-cont
+            position: absolute
+            width: 50%
+            right: 0
+            background-color: rgba(0,0,0,.4)
+            padding: 2em 8em
+            h2
+                color: white
+                font-size: 28px
+                line-height: 38px
+                margin-top: .5em
+            p
+                color: white
+        .ocw-share-item
+            right: 8em
+            bottom: 2em
+    &__valor-a
+        padding-top: 5em
+        &-left
+            padding: 8em
+            h2
+                color: black
+                font-size: 28px
+                line-height: 38px
+                margin-top: .5em
+                margin-bottom: 1em
+        &-right
+            .ocw-cont-blog-multimedia
+                height: 100%
+                margin: 0
+            .ocw-cont-blog-multimedia.ocw-w-right
+                padding: 3em 8em 3em 1em
+                background-color: rgba(#82939F, .5)
+                img
+                    height: 100%
+                &::before
+                    background-color: white
+            .ocw-share-item
+                right: 9.5em
+                bottom: 5em
+    &__valor-b
+        margin-top: 8em
+        &-img
+            width: 100%
+            height: auto
+        &-left
+            .ocw-share-item
+                left: 8em
+                bottom: 2em
+        &-reduct
+            position: relative
+            &-img
+                width: 100%
+                height: 100%
+                object-fit: cover
+            &-info
+                background-color: $p-color
+                display: flex
+                justify-content: center
+                align-items: center
+                padding: 2.5em
+                div
+                    text-align: center
+                p
+                    color: white
+                    margin-top: .5em
+        &-right
+            display: flex
+            align-items: center
+            padding: 8em
+    &__valor-c
+        overflow: hidden
+        &-desc
+            display: flex
+            align-items: center
+            padding: 8em
+        &-item
+            display: flex
+            padding: 6em 8em
+            align-items: center
+            img
+                width: 70px
+                height: 70px
+                margin-right: 1.5em
+            h5
+                color: white
+                font-size: 28px
+            p
+                color: white
+                font-size: 14px
+                margin: 0
+        .ocw-razon__item-gray
+            background-color: #3E4549
+        .ocw-razon__item-green
+            background-color: $p-color
+    &__valor-d
+        overflow: hidden
+        &-cont-img
+            position: relative
+        .ocw-share-item
+            right: 8em
+            bottom: 2em
+        &-img
+            width: 100%
+            height: 553px
+            object-fit: cover
+        &-icon
+            width: 70px
+            height: 70px
+            margin-right: 3em
+        &-cont
+            background-color: $p-color
+            display: flex
+            padding: 5em 8em
+            align-items: center
+            h5
+                color: white
+                font-size: 28px
+            p
+                color: white
+                font-size: 22px
+    &__valor-e
+        overflow: hidden
+        &-left
+            .ocw-cont-blog-multimedia.ocw-w-left
+                padding: 5em 1em 5em 8em
+                &::before
+                    background-color: white
+        &-right
+            display: flex
+            align-items: center
+            padding: 8em
+        .ocw-share-item
+            left: 10em
+            bottom: 7em
+    .ocw-share-item
+        width: 45px
+        height: 45px
+        display: flex
+        justify-content: center
+        align-items: center
+        border-radius: 50%
+        background-color: white
+        position: absolute
+        .ocw-share-item__box
+            left: -76
+            top: 59
+        svg
+            path
+                color:#96A6B0
+
+//Responsive
+@include media-breakpoint-down(md)
+    .ocw-razon
+        &__mision
+            &-left
+                padding: 5em 2em
+            &-right
+                img
+                    height: 300px
+                .ocw-share-item
+                    right: 2em
+        &__vision
+            height: 550px
+            &-cont
+                width: 100%
+                height: 100%
+                padding: 7em 2em
+            .ocw-share-item
+                right: 2em
+        &__valor-a
+            &-left
+                padding: 0em 2em 5em 2em
+            .ocw-cont-blog-multimedia.ocw-w-right
+                padding: 0
+            .ocw-share-item
+                right: 2em
+                bottom: 2em
+        &__valor-b
+            margin: 0
+            &-left
+                height: 50%
+            &-img
+                height: 40%
+                object-fit: cover
+            &-reduct
+                &-info
+                    padding: 1em
+            &-right
+                padding: 5em 2em 1.5em 2em
+            .ocw-share-item
+                left: 2em
+                bottom: 2em
+        &__valor-c
+            &-desc
+                padding: 0 3em 5em 3em
+            &-item
+                padding: 6em 2em
+        &__valor-d
+            .ocw-share-item
+                right: 2em
+                bottom: 2em
+            &-cont
+                display: block
+                text-align: center
+                padding: 3em 2em 5em 2em
+            &-icon
+                margin-bottom: 2em
+        &__valor-e
+            .ocw-cont-blog-multimedia.ocw-w-left
+                margin: 0
+                padding: 0
+            .ocw-share-item
+                left: 3em
+                bottom: 2em
+            &-right
+                padding: 5em 3em

@@ -1,0 +1,53 @@
+#ocw-mapa-sitio
+    .ocw-intro-hero
+        height: 70vh
+.ocw-map-sitio
+    &__item
+        border-bottom: 1px solid #8999A2
+        padding-top: 2em
+        ul
+            list-style: none
+            padding-left: 4.5em
+            padding-bottom: 2em
+            margin: 0
+            li
+                margin-bottom: .5em
+            a
+                color: black
+                transition: $tr
+                font-family: "helvetica-light", sans-serif
+                &:hover
+                    color: $p-color
+                    text-decoration: none
+                svg
+                    margin-right: .5em
+                    color: #8999A2
+                &:hover
+                    svg
+                        color: $p-color
+    &__title
+        display: flex
+        align-items: center
+        padding-bottom: 2em
+        h3
+            font-size: 22px
+            color: $p-color
+            font-family: "helvetica-light", sans-serif
+            margin: 0
+        svg
+            color: $p-color
+            font-size: 1.2em
+    &__icon
+        width: 40px
+        height: 40px
+        border: 1px solid #C0C9CF
+        display: flex
+        justify-content: center
+        align-items: center
+        border-radius: 50%
+        margin-right: 2em
+
+@include media-breakpoint-down(md)
+    #ocw-mapa-sitio
+        .ocw-map-sitio
+            padding-bottom: 5em

@@ -1,0 +1,101 @@
+#ocw-trabaje-con-nosotros
+    #ocw-trabaje-intro
+        .ocw-home-intro__box
+            justify-content: center 
+            .ocw-home-intro__img
+                width: auto
+                img
+                    max-width: 70px
+    #ocw-trabaje-intro-2
+        .ocw-home-intro
+            display: flex
+            .banner-aira
+                    width: 70%
+                    height: 170px
+                    object-fit: cover
+            .ocw-ingresa
+                width: 30%
+                display: flex
+                align-items: center
+                justify-content: center
+                transition: .4s
+                .ocw-ingresa-cont
+                    text-decoration: none
+                &__text
+                    color: white
+                    font-family: 'helvetica', sans-serif
+                    font-size: 18px
+                svg
+                    transform: rotate(45deg)
+                    color: white
+                    margin-left: 5px
+                    margin-top: 5px
+                &:hover
+                    background-color: #077107
+    #ocw-trabaje-clima
+        .ocw-cas-text-eco
+            font-family: "helvetica-light", sans-serif
+            font-size: 16px
+        .ocw-cas-ecosistemas-img
+            max-height: 440px
+            width: 100%
+            object-fit: cover
+    #ocw-trabaje-clima-2
+        .ocw-san-list
+            list-style: none
+            padding: 0px 20px
+            li
+                position: relative
+                line-height: 1.8em
+                font-family: 'helvetica-light', sans-serif
+                font-size: 16px
+                a
+                    color: #19A301
+                    text-decoration: underline
+                &::before
+                    position: absolute
+                    content: ""
+                    top: 12px
+                    left: -20px
+                    width: 6px
+                    height: 6px
+                    background-color: #19A301
+                    border-radius: 50%
+    #ocw-trabaje-cultura
+        .ocw-cas-text-eco
+            font-family: "helvetica-light", sans-serif
+            font-size: 16px
+            .ocw-span-verde
+                color: #19A301
+                font-weight: bold
+        .ocw-cas-ecosistemas-img
+            width: 100%
+    #ocw-trabaje-interes
+        .ocw-proveedores-procesos
+            display: flex
+            flex-direction: column
+            align-items: center
+            justify-content: center
+        .ocw-cas-proveedores-img
+            width: 100%
+            height: auto
+            object-fit: cover
+        .ocw-proveedores-procesos__title
+            font-family: "helvetica-oblique", sans-serif !important
+            font-size: 25px
+            color: white
+            text-align: center
+        .ocw-proveedores-procesos__icon
+            width: 70px
+            height: 70px
+            object-fit: cover
+
+@include media-breakpoint-down(lg)
+    #ocw-trabaje-intro-2
+        .ocw-home-intro
+            flex-direction: column
+            .banner-aira
+                width: 100% !important
+            .ocw-ingresa
+                width: 100% !important
+                padding: 2rem

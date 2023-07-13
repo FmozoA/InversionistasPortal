@@ -1,0 +1,51 @@
+.ocw-submenu-section
+    padding: 1em 2em
+    background-color: white
+    &__nav
+        &__list
+            justify-content: center
+            align-items: center
+            .nav-link
+                font-family: 'roboto-regular', sans-serif
+                font-size: 18px
+                line-height: 30px
+                color: #2E3D43
+                padding: .5em 2em
+                transition: $tr
+                &:hover, &.active
+                    color: $p-color
+                    font-family: 'roboto-bold', sans-serif
+    
+@include media-breakpoint-down(lg)
+    .ocw-submenu-section
+        padding: 1em .5em
+        &__nav
+            &__list
+                align-items: center
+                flex-wrap: nowrap
+                justify-content: flex-start
+                overflow-x: scroll
+                padding-bottom: 1rem
+                &::-webkit-scrollbar 
+                    width: 2px
+                    height: 2px
+                &::-webkit-scrollbar-track
+                    background: #d7d7d7
+                &::-webkit-scrollbar-thumb
+                    background-color: $p-color
+                .nav-item
+                    // width: 50%
+                    .nav-link
+                        font-size: 15px
+                        padding: 0 1em
+                        white-space: nowrap
+
+@include media-breakpoint-only(md)
+    .ocw-submenu-section
+        &__nav
+            &__list
+                justify-content: center
+
+@include media-breakpoint-down(sm)
+    .ocw-search-box .ocw-container-section
+        padding: 1rem 2rem

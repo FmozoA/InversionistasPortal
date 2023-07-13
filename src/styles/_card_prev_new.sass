@@ -1,0 +1,32 @@
+.ocw-card-prev-new
+    &__caption
+        &__edition
+            font-family: 'helvetica-light', sans-serif
+            font-size: 16px
+            line-height: 28px
+        &__button
+            svg
+                transform: rotate(45deg)
+        &__link
+            color: $p-color
+            font-size: 22px
+            line-height: 30px
+            font-family: 'helvetica-light', sans-serif
+            &:hover
+                text-decoration: none
+                color: $p-color
+        &__title
+            font-size: 22px
+            line-height: 30px
+        &__desc
+            @include ocw-n-text-regular
+            font-family: 'helvetica-light', sans-serif
+        &__date
+            font-size: 14px
+            font-family: 'helvetica-light', sans-serif
+            &__icon
+                color: $p-color
+    &__cover
+        width: 100%
+        height: 250px
+        object-fit: cover

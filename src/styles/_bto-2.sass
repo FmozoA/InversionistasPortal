@@ -1,0 +1,57 @@
+.ocw-bto-2
+    .ocw-bto-text
+        font-family: "helvetica-light", sans-serif
+        font-size: 16px
+        line-height: 28px
+    .ocw-bto-desc-img
+        width: 100%
+        height: 100%
+        object-fit: cover
+    .ocw-cont-blog-multimedia
+        &::before
+            background-color: white
+    .ocw-list-bto
+        list-style: none
+        margin-left: -23px
+        li
+            position: relative
+            margin: 15px 0
+            font-family: "helvetica-light", sans-serif
+            font-size: 16px
+            line-height: 28px
+            &::before
+                position: absolute
+                content: ''
+                top: 10px
+                left: -20px
+                width: 7px
+                height: 7px
+                background-color: #19A301
+                border-radius: 50%
+    #ocw-bto-section-4
+        .ocw-etica__desc
+            h1
+                font-size: 22px
+                line-height: 30px
+                font-family: "helvetica-light", sans-serif
+
+#ocw-bto-section-3
+    .text-left
+        background-color: #F3F5F6
+        height: 100%
+#ocw-bto-section-4
+    .ocw-etica__icon
+        display: none
+
+@include media-breakpoint-up(xl)
+    .ocw-bto-2
+        #ocw-bto-section-2
+            .ocw-cont-blog-multimedia__img
+                max-height: 700px
+
+@include media-breakpoint-down(md)
+    .ocw-cont-blog-multimedia.ocw-w-left
+        padding: 0
+    .ocw-bto-2-section-4
+        .ocw-etica
+            margin: 1.5rem 0

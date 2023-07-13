@@ -1,0 +1,97 @@
+#ocw-search
+    .ocw-container-section
+        padding: 1rem 6rem
+    .ocw-list-items-search
+        display: flex
+        align-items: center
+        justify-content: center
+        width: 100%
+        &__item
+            margin: 5px
+            border: 1px solid #8999A2
+            color: #8999A2
+            text-decoration: none
+            padding: 4px 8px
+            font-family: 'roboto-medium', sans-serif
+            font-size: 15px
+            transition: .4s
+            &:hover, &.active
+                color: #19A301
+    .ocw-search-box-v2
+        padding: 2em 0
+        position: relative
+        max-width: 750px
+        margin: auto
+        &__form
+            margin-bottom: 3em
+            .ocw-button
+                svg
+                    transform: rotate(45deg)
+            .form-group
+                display: flex
+                align-items: center
+        &__input
+            height: 50px
+            padding: 5px 10px
+            padding-left: 30px
+            box-sizing: border-box
+            border: none
+            outline: none
+            background: none
+            color: #8999A2
+            font-size: 16px
+            font-family: 'helvetica-light', sans-serif
+            border-bottom: 1px solid #95A6B1
+            width: 100%
+        .ocw-input-group
+            position: relative
+            width: 75%
+            margin-right: 15px
+            &__icon
+                position: absolute
+                left: 0
+                top: 16px
+                svg
+                    g
+                        stroke: $p-color
+        .ocw-button-primary
+            background-color: transparent
+            &:hover
+                background-color: $p-color
+        &__title
+            @include ocw-heading-5
+            color: $p-color
+            font-family: 'helvetica', sans-serif
+            font-weight: bold
+            margin-bottom: 1em
+        &__suggest
+            .nav-item
+                margin-right: 1.5em
+
+@include media-breakpoint-down(md)
+    #ocw-search
+        .row
+            margin: 0
+        .ocw-list-items-search
+            a
+                width: 100%
+                text-align: center
+        .ocw-search-box-v2
+            padding: 0
+            &__form
+                .form-group
+                    flex-direction: column
+                    .ocw-input-group
+                        margin-bottom: 2em
+                        width: 100%
+                        margin-right: 0
+            &__input
+                font-size: 16px
+            .ocw-button
+                display: block
+                width: 100%
+            .ocw-button-primary
+                background-color: $p-color
+                color: white
+        .ocw-container-section
+            padding: 2rem

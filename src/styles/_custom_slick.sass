@@ -1,0 +1,84 @@
+.ocw-slick-theme
+    .slick-slide
+        height: auto
+    .slick-arrow
+        width: 30px
+        height: 30px
+        display: flex
+        justify-content: center
+        align-items: center
+        cursor: pointer
+        background: $p-color
+        border-radius: 50%
+        color: white
+        font-size: 20px
+        &.slick-disabled
+            background-color: $inactive
+            cursor: not-allowed
+    .slick-dots
+        display: flex
+        justify-content: center
+        align-items: center
+        list-style: none
+        li
+            width: 13px
+            height: 13px
+            background-color: $inactive
+            border-radius: 50%
+            margin: 8px
+            cursor: pointer
+            &.slick-active
+                background-color: $p-color
+        button
+            display: none
+
+.ocw-slick-theme-2
+    .slick-slide
+        height: auto
+    .slick-dots
+        display: grid
+        grid-template-columns: repeat(auto-fit, minmax(10px, 1fr))
+        grid-gap: 0
+        width: 90%
+        right: 0
+        top: 20px
+        position: relative
+        margin: 0
+        margin-left: 10%
+        list-style: none
+        padding: 0
+        cursor: pointer
+        li
+            border-radius: 0px
+            width: auto
+            margin: 8px 0
+            height: 2px
+            background-color: $inactive
+            &.slick-active
+                background-color: $p-color
+        button
+            display: none
+    .slick-arrow
+        position: absolute
+        z-index: 2
+        bottom: -25px
+        cursor: pointer
+    .ocw-slick-next
+        left: 40px
+        background-color: transparent
+    .ocw-slick-prev
+        left: 0
+        background-color: transparent
+    .slick-disabled
+        background-color: transparent !important
+        opacity: .5
+
+@include media-breakpoint-down(sm)
+    .ocw-slick-theme-2
+        .slick-dots
+            width: 70%
+            left: 10%
+        .ocw-slick-prev
+            left: 20px
+        .ocw-slick-next
+            left: 60px

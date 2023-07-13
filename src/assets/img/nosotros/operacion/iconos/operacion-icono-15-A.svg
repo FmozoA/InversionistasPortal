@@ -1,0 +1,39 @@
+<svg id="Group_22464" data-name="Group 22464" xmlns="http://www.w3.org/2000/svg" width="70" height="70" viewBox="0 0 70 70">
+  <g id="Group_22467" data-name="Group 22467">
+    <g id="Group_22466" data-name="Group 22466">
+      <g id="Group_22465" data-name="Group 22465">
+        <g id="Grupo_13591" data-name="Grupo 13591">
+          <g id="Grupo_13590" data-name="Grupo 13590">
+            <rect id="Rectángulo_4762" data-name="Rectángulo 4762" width="6.25" height="13.238" transform="translate(12.697 40.553)" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+            <rect id="Rectángulo_4763" data-name="Rectángulo 4763" width="6.745" height="5.855" transform="translate(5.952 44.244)" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+            <path id="Trazado_11867" data-name="Trazado 11867" d="M43.969,48.978a12.16,12.16,0,0,1-7.62,2.684h-17.4V42.684H30l4.21-.052a8.524,8.524,0,0,0,5.9-2.471L64.048,16.4" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+            <path id="Trazado_11867-2" data-name="Trazado 11867" d="M64.048,28.939l-6.162,6.215" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+          </g>
+        </g>
+        <g id="Group_22464-2" data-name="Group 22464">
+          <path id="Trazado_11837" data-name="Trazado 11837" d="M22.319,23.241v7.136h11.07V23.241H22.319" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+          <line id="Línea_2401" data-name="Línea 2401" y1="4.356" transform="translate(27.854 18.885)" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+          <line id="Línea_2402" data-name="Línea 2402" x2="5.873" transform="translate(25.029 18.885)" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+          <line id="Línea_2403" data-name="Línea 2403" x2="6.408" transform="translate(26.981 26.809)" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+        </g>
+        <line id="Line_3085" data-name="Line 3085" x2="44.084" transform="translate(5.952 30.377)" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+        <line id="Line_3086" data-name="Line 3086" y2="12.307" transform="translate(26.072 30.377)" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+        <line id="Line_3087" data-name="Line 3087" y2="12.307" transform="translate(30.244 30.377)" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+        <path id="Path_28587" data-name="Path 28587" d="M38.26,30.041l17.432-17.87,8.356-3.963" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+      </g>
+    </g>
+  </g>
+  <g id="Group_22470" data-name="Group 22470">
+    <g id="Group_22469" data-name="Group 22469">
+      <g id="Group_22468" data-name="Group 22468">
+        <line id="Line_4" data-name="Line 4" x2="8.375" transform="translate(41.677 62.5)" fill="none" stroke="#19a301" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.4"/>
+        <line id="Line_5" data-name="Line 5" x2="0.679" transform="translate(58.405 62.5)" fill="none" stroke="#19a301" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.4"/>
+        <line id="Line_6" data-name="Line 6" x2="8.298" transform="translate(10.916 62.5)" fill="none" stroke="#19a301" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.4"/>
+        <line id="Line_7" data-name="Line 7" x2="14.628" transform="translate(18.674 62.5)" fill="none" stroke="#82d400" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.4"/>
+      </g>
+      <rect id="Rectangle_6927" data-name="Rectangle 6927" width="70" height="15" transform="translate(0 55)" fill="none"/>
+    </g>
+  </g>
+  <rect id="Rectangle_6928" data-name="Rectangle 6928" width="70" height="70" fill="none"/>
+  <circle id="Ellipse_2" data-name="Ellipse 2" cx="5.795" cy="5.795" r="5.795" transform="translate(45.864 36.889)" fill="none" stroke="#19a301" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+</svg>

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 24.0.2, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 70 70" style="enable-background:new 0 0 70 70;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:none;stroke:#19A301;stroke-width:2.4;stroke-linecap:round;stroke-linejoin:round;}
+	.st1{fill:none;stroke:#82D400;stroke-width:2.4;stroke-linecap:round;stroke-linejoin:round;}
+	.st2{fill:none;}
+	.st3{fill:none;stroke:#19A301;stroke-width:1.5;stroke-linecap:round;stroke-linejoin:round;}
+	.st4{fill:none;stroke:#FFFFFF;stroke-width:1.5;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
+</style>
+<symbol  id="OCENSA-EXT" viewBox="-35 -7.5 70 15">
+	<g>
+		<line id="Line_4_1_" class="st0" x1="6.7" y1="0" x2="15.1" y2="0"/>
+		<line id="Line_5_1_" class="st0" x1="23.4" y1="0" x2="24.1" y2="0"/>
+		<line id="Line_6_1_" class="st0" x1="-24.1" y1="0" x2="-15.8" y2="0"/>
+		<line id="Line_7_1_" class="st1" x1="-16.3" y1="0" x2="-1.7" y2="0"/>
+	</g>
+	<rect x="-35" y="-7.5" class="st2" width="70" height="15"/>
+</symbol>
+<g id="Capa_2">
+</g>
+<g id="Capa_1">
+	<g>
+		<g>
+			<defs>
+				<rect id="SVGID_1_" y="55" width="70" height="15"/>
+			</defs>
+			<clipPath id="SVGID_2_">
+				<use xlink:href="#SVGID_1_"  style="overflow:visible;"/>
+			</clipPath>
+			<g style="clip-path:url(#SVGID_2_);">
+				
+					<use xlink:href="#OCENSA-EXT"  width="70" height="15" x="-35" y="-7.5" transform="matrix(1 0 0 -1 35 62.5)" style="overflow:visible;"/>
+			</g>
+		</g>
+		<rect y="0" class="st2" width="70" height="70"/>
+		<g>
+			<circle id="Ellipse_2_136_" class="st3" cx="17.2" cy="23.6" r="5.8"/>
+			<line class="st4" x1="30.7" y1="21.5" x2="30.7" y2="53.7"/>
+			<line class="st4" x1="44.5" y1="44.7" x2="44.5" y2="53.6"/>
+			<line class="st4" x1="26.5" y1="24.1" x2="30.7" y2="28.4"/>
+			<line class="st4" x1="26.5" y1="34.4" x2="30.7" y2="38.6"/>
+			<line class="st4" x1="34.9" y1="24.1" x2="30.7" y2="28.4"/>
+			<line class="st4" x1="34.9" y1="34.4" x2="30.7" y2="38.7"/>
+			<line class="st4" x1="45.6" y1="31" x2="48.2" y2="28.3"/>
+			<path class="st4" d="M15,32.1c-1.3,1.3-2.1,3.2-2.1,5.2c0,4.1,3.3,7.4,7.4,7.4h20.2c4.1,0,7.4-3.3,7.4-7.4c0-3.5-2.4-6.4-5.7-7.2
+				c1.4-1.1,2.4-2.8,2.4-4.8c0-3-2.2-5.5-5-5.9c0.1-0.6,0.2-1.2,0.2-1.8c0-5.1-4.2-9.3-9.3-9.3c-4.5,0-8.2,3.1-9.1,7.3"/>
+			<path class="st4" d="M36.5,44.7h16.1c3.3,0,5.9-2.7,5.9-5.9c0-2.8-1.9-5.1-4.5-5.8c1.2-0.9,1.9-2.3,1.9-3.8c0-2.4-1.8-4.4-4-4.7
+				c0.1-0.5,0.2-1,0.2-1.5c0-4.1-3.3-7.4-7.5-7.4c-1.7,0-3.2,0.6-4.5,1.5"/>
+			<line class="st4" x1="53.4" y1="54" x2="16.4" y2="54"/>
+		</g>
+	</g>
+</g>
+</svg>

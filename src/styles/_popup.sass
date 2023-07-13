@@ -1,0 +1,77 @@
+.ocw-popup
+    display: flex
+    width: 960px
+    border: 1px solid #8999A2
+    -webkit-box-shadow: 10px 10px 5px -3px rgba(0,0,0,0.17)
+    -moz-box-shadow: 10px 10px 5px -3px rgba(0,0,0,0.17)
+    box-shadow: 10px 10px 5px -3px rgba(0,0,0,0.17)
+    position: fixed
+    bottom: 80px
+    left: 0
+    right: 0
+    margin: auto
+    z-index: 10
+    background-color: white
+    &__close
+        position: absolute
+        right: 10px
+        top: 10px
+        cursor: pointer
+        svg
+            color: $p-color
+            font-size: 1.2em
+    &__cont-img
+        width: 30%
+        img
+            width: 100%
+    &__content
+        width: 70%
+        padding: 2em 3em
+        h3
+            color: $p-color
+            font-family: 'helvetica', sans-serif
+            font-size: 28px
+        p
+            font-family: "helvetica-light", sans-serif
+            a
+                color: $p-color
+                text-decoration: underline
+                font-family: 'helvetica-cn'
+    &__btn
+        background-color: $p-color
+        color: white
+        font-family: 'helvetica', sans-serif
+        height: 40px
+        display: inline-flex
+        justify-content: center
+        align-items: center
+        padding: 0 2.5em
+        border-radius: 21px
+        &:hover
+            text-decoration: none
+            color: white
+        svg
+            color: white
+            transform: rotate(45deg)
+            font-size: 1.2em
+
+@media (max-width: 991.98px)
+    .ocw-popup
+        max-width: 691px
+
+@media (max-width: 733px)
+    .ocw-popup
+        max-width: 90%
+        display: block
+        bottom: auto
+        top: 20px
+        &__cont-img
+            width: 100%
+            img
+                max-height: 250px
+                object-fit: cover
+        &__content
+            width: 100%
+            padding: 2em 1em
+            h3
+                font-size: 25px

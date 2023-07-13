@@ -1,0 +1,81 @@
+#ocw-footer-general
+    .ocw-footer-cont
+        width: 100%
+        height: 100%
+        padding: 3em 0
+        &__logos
+            padding: 3em
+            background-color: rgba(46, 61, 67, 0.54)
+            width: 70%
+            height: 100%
+            &__ocensa
+                width: 100%
+                max-width: 220px
+            &__aux
+                width: 100%
+                max-width: 220px
+    .cont-info-pages
+        width: 90%
+        padding: 1.5em 1em 1em 1em
+        border-bottom: 1px solid rgba(149, 166, 177, 0.4)
+        &__item-menu
+            font-family: 'roboto-light', sans-serif
+            font-size: 14px
+            color: black
+            margin-bottom: 10px
+            text-decoration: none
+            transition: .4s
+            &:hover
+                color: $p-color !important
+                font-weight: bold
+    .cont-info-contact
+        width: 90%
+        padding: .7em 2em .7em 1em
+        border-bottom: 1px solid rgba(149, 166, 177, 0.4)
+        &__items-contact
+            margin: 10px 0
+            display: flex
+            align-items: center
+            width: 100%
+            .contact-link__text
+                margin-left: 8px
+                font-family: 'roboto-light', sans-serif
+                font-size: 13px
+            .contact-link__icon
+                width: 10px
+                display: inline-block
+                font-size: 16px
+                color: $p-color
+                margin-right: 5px
+                margin-top: 3px
+    .cont-info-legal
+        width: 90%
+        padding: .7em 2em .7em 1em
+        &__item-legal
+            span
+                font-family: 'roboto-regular', sans-serif
+                font-size: 12px
+            a
+                font-family: 'roboto-light', sans-serif
+                font-size: 12px
+                text-decoration: none
+                color: black
+                transition: .4s
+                &:hover
+                    color: $p-color !important
+                    font-weight: bold
+    .contact-link
+        text-decoration: none
+        color: black
+        display: flex
+        &:hover
+            color: $p-color
+            font-weight: bold
+
+@include media-breakpoint-down(md)
+    .cont-info-legal
+        &__item-legal
+            margin: .5em 0
+                    
+
+

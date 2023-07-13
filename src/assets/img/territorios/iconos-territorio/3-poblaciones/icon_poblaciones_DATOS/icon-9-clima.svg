@@ -1,0 +1,21 @@
+<svg id="icon-9-clima" xmlns="http://www.w3.org/2000/svg" width="70" height="70" viewBox="0 0 70 70">
+  <line id="Línea_3923" data-name="Línea 3923" x2="3.298" transform="translate(7 25.205)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+  <line id="Línea_3924" data-name="Línea 3924" y1="2.357" x2="2.305" transform="translate(35.855 12.815)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+  <line id="Línea_3925" data-name="Línea 3925" x2="2.306" y2="2.357" transform="translate(12.112 12.815)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+  <line id="Línea_3926" data-name="Línea 3926" y2="3.297" transform="translate(25.137 8.387)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+  <path id="Trazado_29336" data-name="Trazado 29336" d="M20.521,37.076A11.212,11.212,0,0,1,25.8,15.971c5.724,0,10.445,4.963,11.117,10.516" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+  <path id="Trazado_29337" data-name="Trazado 29337" d="M54.334,35.776a9.773,9.773,0,0,1-.8,1.964A7.564,7.564,0,0,1,60,45.22v.68a7.573,7.573,0,0,1-7.58,7.57H21.41a7.571,7.571,0,0,1-7.57-7.57v-.68a7.573,7.573,0,0,1,7.25-7.56v-.01a8.571,8.571,0,0,1,14.05-6.6,9.9,9.9,0,0,1,11.148-7.8" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+  <circle id="Ellipse_2" data-name="Ellipse 2" cx="5.795" cy="5.795" r="5.795" transform="translate(48.12 21.12)" fill="none" stroke="#19a301" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+  <g id="Grupo_24051" data-name="Grupo 24051">
+    <g id="Grupo_24050" data-name="Grupo 24050">
+      <g id="Grupo_24049" data-name="Grupo 24049">
+        <line id="Line_4" data-name="Line 4" x2="8.375" transform="translate(41.677 62.5)" fill="none" stroke="#19a301" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.4"/>
+        <line id="Line_5" data-name="Line 5" x2="0.679" transform="translate(58.405 62.5)" fill="none" stroke="#19a301" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.4"/>
+        <line id="Line_6" data-name="Line 6" x2="8.298" transform="translate(10.916 62.5)" fill="none" stroke="#19a301" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.4"/>
+        <line id="Line_7" data-name="Line 7" x2="14.628" transform="translate(18.674 62.5)" fill="none" stroke="#82d400" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.4"/>
+      </g>
+      <rect id="Rectángulo_7385" data-name="Rectángulo 7385" width="70" height="15" transform="translate(0 55)" fill="none"/>
+    </g>
+  </g>
+  <rect id="Rectángulo_7386" data-name="Rectángulo 7386" width="70" height="70" fill="none"/>
+</svg>

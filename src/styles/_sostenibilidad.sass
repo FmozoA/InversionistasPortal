@@ -1,0 +1,75 @@
+.ocw-sost
+    &__intro
+        &-img
+            padding: 4em 0
+    &__car
+        padding: 3em 0
+        display: grid
+        grid-template-columns: repeat(auto-fill, minmax(min(100%, 350px), 1fr))
+        gap: 3rem
+        &-title
+            font-family: "helvetica-light", sans-serif
+            font-size: 16px
+            color: $p-color
+            display: none
+        img
+            margin-bottom: 1.5em
+            width: 100%
+        &-report
+            font-family: 'helvetica', sans-serif
+            font-size: 16px
+        &-informe
+            font-size: 22px
+            color: $p-color
+            font-family: "helvetica-light", sans-serif
+            border-bottom: 1px solid #8999A2
+        &-spanish, &-english
+            display: block
+            font-family: "helvetica-light", sans-serif
+            font-size: 14px
+            color: black
+            border-bottom: 1px solid #8999A2
+            transition: $tr
+            padding-bottom: .6em
+            margin-bottom: 0.5em
+            svg
+                color: $p-color
+                margin-right: .3em
+            &:hover
+                color: black
+                text-decoration-color: $p-color
+        .slick-track
+            margin: 0
+        .slick-dots
+            padding: 0
+            margin-top: 2em
+
+@include media-breakpoint-up(lg)
+    #ocw-sost-intro
+        .ocw-sost__intro__left
+            padding-left: 7rem
+
+@include media-breakpoint-down(md)
+    #ocw-sost-informes
+        .ocw-container-section
+            padding: 0
+        .ocw-cont-territorio-info
+            padding: 3em 1em 1em 2em
+    .ocw-sost
+        &__video
+            padding-top: 4em
+        &__car
+            padding: 3em 5em 3em 5em
+            background-color: rgba(#C0CBD1, .2 )
+            &-title
+                display: block
+                padding: 4em 1em 2em 2em
+            &-item
+                margin-bottom: 1.5rem
+
+@include media-breakpoint-down(sm)
+    .ocw-sost
+        &__car
+            padding: 3em 2em 3em 2em
+            &-info
+                padding: 0

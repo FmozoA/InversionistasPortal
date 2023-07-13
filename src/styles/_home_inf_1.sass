@@ -1,0 +1,247 @@
+/*Subheader*/
+.ocw-sub-home
+    &__item
+        position: relative
+        height: 100vh
+        video
+            width: 100%
+            height: 100%
+            object-fit: cover
+    &__content
+        position: absolute
+        bottom: 120px
+        left: 0
+        font-family: 'roboto-regular', sans-serif
+        margin-left: 6rem
+        width: 50%
+        h5
+            color: $p-color
+            font-size: 22px
+        h3
+            color: white
+            font-size: 35px
+        p
+            color: white
+            font-size: 16px
+    .slick-dots
+        display: flex
+        width: 100%
+        list-style: none
+        padding: 0 6rem
+        position: absolute
+        bottom: 30px
+        li
+            width: 100%
+            display: grid
+            button
+                background-color: transparent
+                border-left: none
+                border-right: none
+                border-bottom: none
+                border-top: 1px solid white
+                color: white
+                font-size: 13px
+                padding-top: 1em
+                text-align: left
+        .slick-active
+            position: relative
+            button
+                border-top: 1px solid $p-color
+            &::before
+                content: ''
+                position: absolute
+                top: 0
+                left: 0
+                width: 0
+                height: 0
+                border-left: 10px solid $p-color
+                border-top: 0px solid transparent
+                border-bottom: 10px solid transparent
+    
+/*Senction Intro*/
+.ocw-home-intro
+    padding-top: .5rem
+    &__img
+        width: 100px
+        text-align: center
+        margin-right: 2rem
+        min-width: 80px
+        img
+            width: 100%
+    &__box
+        background-color: $p-color
+        padding: 3rem
+        display: flex
+    &__content
+        p
+            color: white
+            font-size: 25px
+            font-family: 'cabin-italic', sans-serif
+            margin: 0
+        a
+            font-family: 'cabin-bold-italic'
+            text-decoration: underline
+            color: white
+.ocw-home-acor
+    &__info
+        img
+            width: 70px
+            height: 70px
+        h3
+            font-size: 28px
+            font-family: "helvetica-light", sans-serif
+        p
+            font-size: 16px
+            font-family: "helvetica-light", sans-serif
+    &__item
+        border-top: 2px solid $p-color
+        border-left: 1px solid #D8D8D8
+        border-right: 1px solid #D8D8D8
+        border-bottom: 1px solid #D8D8D8
+        padding: 1em
+        cursor: pointer
+        margin-bottom: 1.3em
+        &-head
+            display: flex
+            align-items: center
+            justify-content: space-between
+            img
+                width: 70px
+                height: 70px
+            h4
+                color: $p-color
+                font-size: 16px
+                font-family: "helvetica-light", sans-serif
+        &-body
+            display: none
+            padding-right: 90px
+            margin-top: 1em
+            p
+                font-size: 14px
+                font-family: "helvetica-light", sans-serif
+
+.ocw-home-est
+    background-color: #F3F5F6
+    &__intro
+        font-size: 22px
+        font-family: 'helvetica', sans-serif
+        color: #505D6C
+    &__list
+        display: flex
+        justify-content: center
+    &__item
+        width: 190px
+        position: relative
+        height: 225px
+        display: flex !important
+        align-items: center
+        justify-content: center
+        flex-flow: column
+        text-align: center
+        padding: 0 3em
+        &::before
+            content: ''
+            position: absolute
+            width: 225px
+            height: 225px
+            top: 0
+            left: -22px
+            margin: auto
+            border: 1px solid #96A6B0
+            border-radius: 50%
+    &__number
+        font-size: 28px
+        color: $p-color
+        font-family: 'roboto-medium', sans-serif
+    &__desc
+        font-size: 14px
+        font-family: 'roboto-regular', sans-serif
+    .slick-slide
+        width: 190px
+        text-align: center
+    .slick-list
+        overflow: inherit
+
+@include media-breakpoint-down(md)
+    .ocw-sub-home
+        &__item 
+            height: 80vh
+        .slick-slide
+            height: 80vh
+        &__content
+            margin: 0
+            padding: 1em
+            width: 100%
+        .slick-dots
+            padding: 1em
+    .ocw-home-intro
+        &__img
+            width: 100%
+            margin-bottom: 1em
+        .container
+            display: block !important
+    .ocw-home-acor
+        &__info
+            margin-bottom: 4em
+            margin-top: 2em
+    .ocw-home-est
+        padding-top: 4em
+        padding-bottom: 4em
+        &__item
+            margin: auto
+            &::before
+                left: 0
+                right: 0
+        &__list
+            height: 300px
+        &__desc
+            width: 108px
+        .slick-list
+            overflow: hidden
+        .slick-dots
+            position: absolute
+            bottom: 0
+            padding: 0
+        .ocw-slick-prev
+            position: absolute
+            left: 0
+            top: 35%
+            z-index: 1
+        .ocw-slick-next
+            position: absolute
+            right: 0
+            top: 35%
+
+@include media-breakpoint-down(sm)
+    .ocw-home-intro__box
+        display: block
+    .ocw-home-intro__img
+        width: 70px
+        margin: auto
+        margin-bottom: 1rem
+    .ocw-home-est
+        &__item
+            margin: auto
+            &::before
+                left: 0
+                right: 0
+        &__list
+            height: 300px
+        &__desc
+            width: 108px
+    .ocw-sub-home
+        height: 90vh
+        &__item 
+            height: 90vh
+        &__content
+            bottom: 100px
+        .slick-slide
+            height: 90vh
+        .slick-dots
+            bottom: 10px
+            li
+                display: none
+            .slick-active
+                display: block
+                button
+                    width: 100%   

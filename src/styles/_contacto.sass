@@ -1,0 +1,170 @@
+/*Estilos general de la pagina contacto*/
+//Titulos - Textos
+.ocw-contact
+    &__title
+        font-size: 28px
+        font-family: "helvetica-light", sans-serif
+        margin-bottom: 1em
+    &__text
+        font-family: "helvetica-light", sans-serif
+        span
+            color: $p-color
+
+//Item informacion de contacto
+.ocw-contact
+    &__item-date
+        display: inline-flex
+        margin-bottom: 1em
+        width: 100%
+    &__item-icon
+        width: 40px
+        height: 40px
+        background-color: white
+        display: flex
+        justify-content: center
+        align-items: center
+        border-radius: 50px
+        border: 1px solid #C0C9CF
+        margin-right: 1em
+        svg
+            color: $p-color
+    &__item-information
+        padding-top: .5em
+        width: fit-content
+        p, a
+            font-size: 16px
+            font-family: "helvetica-light", sans-serif
+            margin-bottom: 0
+            color: black
+            transition: $tr
+        a:hover
+            color: $p-color
+            text-decoration: underline
+
+//Seccion 1
+.ocw-contact
+    &__date
+        background-color: rgba(#E2E7EA, .5)
+    &__img-section
+        width: 500px
+
+//Seccion 2
+.ocw-contact
+    &__atencion
+        .ocw-cont-blog-multimedia
+            margin-top: 0
+            background-color: #E2E7EA
+            &::before
+                background-color: white
+
+//Seccion 3
+.ocw-contact
+    &__linea
+        .ocw-button-link
+            color: $p-color
+        .ocw-cont-blog-multimedia
+            margin-top: 0
+            background-color: #E2E7EA
+            &::before
+                background-color: white
+
+//Seccion 5
+.ocw-contact
+    &__black
+        background-color: #2E3D43
+        h2, p, a
+            color: white
+        b
+            color: $p-color
+        .ocw-contact__item-icon
+            background-color: #2E3D43
+            svg
+                color: white
+
+//Seccion 6
+.ocw-contact
+    &__accordion
+        margin-top: 2em
+        .ocw-home-acor__item-head.active
+            h4
+                font-weight: bold
+        .ocw-home-acor__item
+            ul
+                list-style: none
+                padding: 0
+            li
+                font-family: "helvetica-light", sans-serif
+                font-size: 14px
+                &::before
+                    content: "\2022"
+                    left: 0
+                    width: 1em
+                    color: $p-color
+                    display: inline-block
+        &-items
+            padding-left: 5em
+
+//Seccion 7
+.ocw-contact
+    &__carousel
+        background-color: #F3F5F6
+        &-item
+            padding: 2em
+            h3
+                color: $p-color
+                font-size: 22px
+                font-family: "helvetica-light", sans-serif
+                margin-top: 2em
+            p
+                font-family: "helvetica-light", sans-serif
+        &-icon
+            text-align: center
+            img
+                margin: auto
+        .ocw-contact__item-information
+            width: 83%
+
+//Seccion 8
+.ocw-contact
+    &__form
+        &-title
+            display: flex
+            justify-content: center
+            align-items: center
+            h3
+                margin: 0
+                margin-left: .7em
+
+/*RESPONSIVE*/
+//Tablet
+@include media-breakpoint-down(md)
+    .ocw-contact
+        &__date
+            padding-top: 4em
+        &__img-section
+            padding: 4em 0
+            width: 80%
+        &__atencion
+            .row
+                flex-direction: column-reverse
+            .ocw-p-6
+                padding: 4em 1em
+        &__linea
+            .ocw-p-6
+                padding: 4em 1em
+            .ocw-cont-blog-multimedia
+                padding: 4em 0
+                text-align: center
+                &::before
+                    content: none
+                img
+                    width: 70%
+        &__oficina
+            .ocw-p-6
+                padding: 4em 1em
+        &__accordion
+            &-items
+                padding: 3em 1em
+        &__form
+            padding: 4em 1em
+

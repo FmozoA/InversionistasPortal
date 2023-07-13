@@ -1,0 +1,74 @@
+#ocw-san-habitat
+    .ocw-share-item
+        position: absolute
+        left: 150px
+        bottom: 145px
+        z-index: 2
+        width: 45px
+        height: 45px
+        display: flex
+        justify-content: center
+        align-items: center
+        border-radius: 50%
+        background-color: white
+        svg
+            color: #8999A2
+    &:hover
+        svg
+            color: #19a301 !important
+
+#san-ecosistemas
+    .ocw-san-list
+        list-style: none
+        padding: 0px 20px
+        li
+            position: relative
+            line-height: 1.8em
+            font-family: 'helvetica-light', sans-serif
+            font-size: 16px
+            &::before
+                position: absolute
+                content: ""
+                top: 12px
+                left: -20px
+                width: 6px
+                height: 6px
+                background-color: #19A301
+                border-radius: 50%
+    .ocw-share-item
+        position: absolute
+        left: 35px
+        bottom: unset
+        z-index: 2
+        width: 45px
+        height: 45px
+        display: flex
+        justify-content: center
+        align-items: center
+        border-radius: 50%
+        background-color: white
+        top: 20px
+        svg
+            color: #8999A2
+    &:hover
+        svg
+            color: #19a301 !important
+@include media-breakpoint-up(lg)
+    #san-ecosistemas
+        .ocw-share-item
+            top: unset
+            bottom: 43%
+@include media-breakpoint-down(md)
+    #ocw-san-block-multimedia
+        .ocw-cont-blog-multimedia.ocw-w-left
+            padding: 0
+        .ocw-cont-blog-multimedia
+            margin-top: 0
+    #ocw-san-habitat
+        .ocw-share-item
+            left: 670px
+            bottom: 35px
+@include media-breakpoint-down(sm)
+    #ocw-san-habitat
+        .ocw-share-item
+            left: 290px !important

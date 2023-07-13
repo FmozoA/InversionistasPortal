@@ -1,0 +1,29 @@
+<svg id="Group_22434" data-name="Group 22434" xmlns="http://www.w3.org/2000/svg" width="70" height="70" viewBox="0 0 70 70">
+  <g id="Group_22436" data-name="Group 22436">
+    <g id="Group_22435" data-name="Group 22435">
+      <g id="Group_22434-2" data-name="Group 22434">
+        <line id="Line_4" data-name="Line 4" x2="8.375" transform="translate(41.677 62.5)" fill="none" stroke="#19a301" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.4"/>
+        <line id="Line_5" data-name="Line 5" x2="0.679" transform="translate(58.405 62.5)" fill="none" stroke="#19a301" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.4"/>
+        <line id="Line_6" data-name="Line 6" x2="8.298" transform="translate(10.916 62.5)" fill="none" stroke="#19a301" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.4"/>
+        <line id="Line_7" data-name="Line 7" x2="14.628" transform="translate(18.674 62.5)" fill="none" stroke="#82d400" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.4"/>
+      </g>
+      <rect id="Rectangle_6900" data-name="Rectangle 6900" width="70" height="15" transform="translate(0 55)" fill="none"/>
+    </g>
+  </g>
+  <rect id="Rectangle_6901" data-name="Rectangle 6901" width="70" height="70" fill="none"/>
+  <circle id="Ellipse_2" data-name="Ellipse 2" cx="5.795" cy="5.795" r="5.795" transform="translate(5.014 18.843)" fill="none" stroke="#19a301" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+  <rect id="Rectángulo_2137" data-name="Rectángulo 2137" width="17.581" height="20.911" transform="translate(38.858 33.183)" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+  <path id="Trazado_5455" data-name="Trazado 5455" d="M22.458,11.706h-11.1V15.7" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+  <path id="Trazado_5456" data-name="Trazado 5456" d="M11.357,33.816V54.094h11.1V12.126" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+  <path id="Path_28551" data-name="Path 28551" d="M22.444,33.184h5.983a4.021,4.021,0,0,1,3.857,4.158v5.983a4,4,0,0,0,3.842,4.145H38.72" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+  <path id="Trazado_5459" data-name="Trazado 5459" d="M22.764,16.276h.684c2.832,0,5.125,1.858,5.125,4.151V54.1" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+  <line id="Línea_708" data-name="Línea 708" x1="55.426" transform="translate(6.574 54.094)" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.659"/>
+  <path id="Trazado_5460" data-name="Trazado 5460" d="M47.84,38.552c-.664,1.67-1.348,3.325-2.028,4.99-.545,1.328-1.2,2.776-.239,4.083a2.866,2.866,0,0,0,2.267,1.193,2.935,2.935,0,0,0,2.667-1.909c.482-1.2-.1-2.552-.618-3.621C49.267,42,47.794,38.666,47.84,38.552Z" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+  <rect id="Rectangle_6902" data-name="Rectangle 6902" width="26.075" height="12.351" transform="translate(34.611 14.376)" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+  <line id="Line_3076" data-name="Line 3076" y2="6.457" transform="translate(47.885 26.727)" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+  <g id="Group_22437" data-name="Group 22437">
+    <path id="Path_28552" data-name="Path 28552" d="M44.47,17.665H41.932v6.879H40.89V17.665H38.385v-.819H44.47Z" stroke="#000" stroke-miterlimit="10" stroke-width="0.437"/>
+    <path id="Path_28553" data-name="Path 28553" d="M46.606,23.73H50.36v.814h-4.8v-7.7h1.041Z" stroke="#000" stroke-miterlimit="10" stroke-width="0.437"/>
+    <path id="Path_28554" data-name="Path 28554" d="M56.912,16.846v5.112a2.489,2.489,0,0,1-.825,1.984,3.138,3.138,0,0,1-2.126.714,2.958,2.958,0,0,1-2.051-.717,2.527,2.527,0,0,1-.8-1.981V16.846h1.042v5.112a1.856,1.856,0,0,0,.505,1.383,1.772,1.772,0,0,0,1.3.5,1.933,1.933,0,0,0,1.378-.5,1.807,1.807,0,0,0,.531-1.383V16.846Z" stroke="#000" stroke-miterlimit="10" stroke-width="0.437"/>
+  </g>
+</svg>

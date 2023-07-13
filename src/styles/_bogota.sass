@@ -1,0 +1,58 @@
+#bogota-empleados-accordion
+    .ocw-etica__content-info
+        width: 100%
+        display: block
+    .ocw-etica__content-body
+        overflow: hidden
+    .ocw-table-responsive
+        width: 100%
+.table-bogota-empleados
+    th
+        font-family: 'roboto-light', sans-serif
+        font-weight: normal
+        font-size: 16px
+        color: $p-color
+        border-color: #707070
+        &.th-total
+            font-family: 'roboto-bold', sans-serif
+    thead
+        th
+            font-family: 'roboto-medium', sans-serif
+            border-top: none
+            border-color: #707070
+    td
+        font-family: 'roboto-light', sans-serif
+        font-size: 16px
+        border-color: #707070
+
+@include media-breakpoint-down(lg)    
+    .ocw-table-responsive
+        overflow-x: scroll
+        margin-bottom: 3rem
+        &::-webkit-scrollbar
+            width: 20px
+            height: 3px
+        &::-webkit-scrollbar-track
+            background: #96A6B0
+            height: 1px
+        &::-webkit-scrollbar-thumb
+            background-color: $p-color
+            height: 10px
+@include media-breakpoint-down(md)
+    #bog-carousel-comunidades .slick-slider
+        padding: 2rem
+    #bog-carousel-comunidades .ocw-slick-next
+        left: 90px
+    #bog-carousel-comunidades .ocw-slick-prev
+        left: 50px
+    #bog-carousel-comunidades .slick-dots
+        padding: 0 1.2rem
+@include media-breakpoint-down(sm)
+    #bog-carousel-comunidades .slick-slider
+        padding: 0
+    #bog-carousel-comunidades .slick-dots
+        padding: 0
+    #bog-carousel-comunidades .ocw-slick-prev
+        left: 20px
+    #bog-carousel-comunidades .ocw-slick-next
+        left: 60px

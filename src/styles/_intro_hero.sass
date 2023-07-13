@@ -1,0 +1,71 @@
+.ocw-intro-hero
+    height: 100vh
+    overflow: hidden
+    position: relative
+    &.ocw-layer-opacity
+        &::before
+            &::before
+            position: absolute
+            content: ''
+            width: 100%
+            height: 100%
+            top: 0
+            left: 0
+            // background: rgb(255,255,255)
+            // background: linear-gradient(180deg, rgba(255,255,255,0) 28%, rgba(0,0,0,0.7) 94%)
+            background: rgb(0,0,0)
+            background: linear-gradient(0deg, rgba(0,0,0,0.6) 18%, rgba(255,255,255,0) 61%)
+    &__video
+        height: 100%
+        width: 100%
+        object-fit: cover
+    &__image
+        width: 100%
+        height: 100%
+        object-fit: cover
+    &__content
+        position: absolute
+        width: 100%
+        height: 100%
+        top: 0
+        left: 0
+        font-family: 'roboto-regular', sans-serif
+        .ocw-container-section
+            height: 100%
+            display: flex
+            flex-direction: column
+            justify-content: center
+        &__subtitle
+            color: $p-color
+            font-size: 22px
+            line-height: 45px
+            margin: 0
+        &__title
+            color: white
+            font-size: 35px
+            line-height: 45px
+            margin: 0
+        &__desc
+            color: white
+            font-size: 16px
+            line-height: 28px
+
+.text-down
+    .ocw-intro-hero__content
+        .ocw-container-section
+            justify-content: flex-end
+            .ocw-intro-hero__content__desc
+                margin-bottom: 0
+
+@include media-breakpoint-up(lg)
+    .ocw-intro-hero
+        .ocw-container-section
+            padding-bottom: 2rem
+
+@include media-breakpoint-only(md)
+    .ocw-intro-hero
+        height: 400px
+
+@include media-breakpoint-down(sm)
+    .ocw-intro-hero
+        height: 85vh

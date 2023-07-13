@@ -1,0 +1,28 @@
+<svg id="Grupo_24161" data-name="Grupo 24161" xmlns="http://www.w3.org/2000/svg" width="70" height="70" viewBox="0 0 70 70">
+  <g id="Grupo_24157" data-name="Grupo 24157">
+    <g id="Grupo_24156" data-name="Grupo 24156">
+      <g id="Grupo_24155" data-name="Grupo 24155">
+        <line id="Line_4" data-name="Line 4" x2="8.375" transform="translate(41.677 62.5)" fill="none" stroke="#19a301" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.4"/>
+        <line id="Line_5" data-name="Line 5" x2="0.679" transform="translate(58.405 62.5)" fill="none" stroke="#19a301" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.4"/>
+        <line id="Line_6" data-name="Line 6" x2="8.298" transform="translate(10.916 62.5)" fill="none" stroke="#19a301" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.4"/>
+        <line id="Line_7" data-name="Line 7" x2="14.628" transform="translate(18.674 62.5)" fill="none" stroke="#82d400" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.4"/>
+      </g>
+      <rect id="Rectángulo_7708" data-name="Rectángulo 7708" width="70" height="15" transform="translate(0 55)" fill="none"/>
+    </g>
+  </g>
+  <g id="Grupo_24160" data-name="Grupo 24160">
+    <path id="Trazado_29383" data-name="Trazado 29383" d="M33.461,13.28l.844-1.678h1.953l7.8-4.231.976,2.441-4.872,3.733,1.953,7,6.011.325,3.418,1.79,4.719-.325.163,8.381L59.195,34.2l-1.953,1.465h-.976v-1.79l-6.021,1.139v5.533l2.6,2.929L51.709,54.056l-2.116-.976h-.976l.976-4.557-2.278-1.465-6.337,1.465-3.418-5.37-2.594-1.4" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+    <path id="Trazado_29384" data-name="Trazado 29384" d="M26.758,26.533l.712,4.75-2.685,2.584" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+    <circle id="Ellipse_2" data-name="Ellipse 2" cx="5.795" cy="5.795" r="5.795" transform="translate(20.827 12.424)" fill="none" stroke="#19a301" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+    <g id="Grupo_24159" data-name="Grupo 24159">
+      <path id="Trazado_29385" data-name="Trazado 29385" d="M16.888,33.87h-3.41v7.884H43.836V33.87H16.888Z" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+      <rect id="Rectángulo_7709" data-name="Rectángulo 7709" width="2.672" height="8.976" transform="translate(13.478 42.3) rotate(-180)" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+      <rect id="Rectángulo_7710" data-name="Rectángulo 7710" width="2.672" height="8.976" transform="translate(46.513 42.3) rotate(-180)" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+      <g id="Grupo_24158" data-name="Grupo 24158">
+        <line id="Línea_3865" data-name="Línea 3865" x2="8.032" transform="translate(32.71 37.828)" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+        <path id="Trazado_29386" data-name="Trazado 29386" d="M38.788,35.784l2.045,2.045-2.045,2.045" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+      </g>
+    </g>
+  </g>
+  <rect id="Rectángulo_7711" data-name="Rectángulo 7711" width="70" height="70" fill="none"/>
+</svg>

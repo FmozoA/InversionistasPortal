@@ -1,0 +1,174 @@
+// Tabs colors
+$vida : #2dafe6
+$eticos: #54A020
+$apasionados:#fbba00
+$escuchamos: #6859a3
+$imposible:#9c9a88
+$equipo: #e8336e
+
+    
+// Tabs
+.ocw-slick-tabs
+    position: relative
+    margin-bottom: 1.5em
+    .slick-arrow
+        position: absolute
+        z-index: 3
+        top: 30%
+        &.ocw-slick-next
+            right: 0
+        &.ocw-slick-prev
+            left: 0
+    .slick-slide 
+        height: auto !important
+    &__item
+        text-align: center
+        display: flex
+        flex-direction: column
+        justify-content: center
+        align-items: center
+        text-decoration: none
+        padding: 0 10px
+        transition: $tr
+        &__top
+            min-height: 180px
+            &__img
+                margin: auto
+            &__title
+                font-size: 16px
+                font-family: 'helvetica', sans-serif
+                color: black
+                margin: 10px 0
+                margin-bottom: 15px
+                transition: $tr
+        &__arrow-down
+            opacity: 0
+        &:hover
+            text-decoration: none
+            .ocw-slick-tabs__item__top__title
+                font-weight: bold
+        &.active
+            text-decoration: none
+            .ocw-slick-tabs__item__top__title
+                font-weight: bold
+            .ocw-slick-tabs__item__arrow-down
+                opacity: 1
+            
+    &__vida
+        &:hover, &.active
+            .ocw-slick-tabs__item__top__title
+                color: $vida
+    &__eticos
+        &:hover, &.active
+            .ocw-slick-tabs__item__top__title
+                color: $eticos
+    &__apasionados
+        &:hover, &.active
+            .ocw-slick-tabs__item__top__title
+                color: $apasionados
+    &__escuchamos
+        &:hover, &.active
+            .ocw-slick-tabs__item__top__title
+                color: $escuchamos
+    &__imposible
+        &:hover, &.active
+            .ocw-slick-tabs__item__top__title
+                color: $imposible
+    &__equipo
+        &:hover, &.active
+            .ocw-slick-tabs__item__top__title
+                color: $equipo
+
+// Panels
+.ocw-slick-panels
+    .slick-slide 
+        height: auto !important
+    &__item
+        background-color: white
+        font-family: 'helvetica', sans-serif
+        font-size: 16px
+        line-height: 22px
+        border-top: 1px solid $p-color
+        &__cover
+            width: 100%
+            height: 100%
+            object-fit: cover
+            min-height: 540px
+        &__title
+            color: $p-color
+            font-family: 'helvetica', sans-serif
+            font-size: 28px
+            line-height: 38px
+        &__subtitle
+            color: black
+            font-family: 'helvetica', sans-serif
+            font-size: 22px
+            line-height: 30px
+        &__content
+            .ocw-link
+                color: #505D6C
+                font-family: 'roboto-bold', sans-serif
+                margin: 0 5px
+                transition: $tr
+                &:hover
+                    color: $p-color
+            &__list
+                list-style: none
+                padding-left: 1em
+                li
+                    position: relative
+                    &::before
+                        content: ''
+                        width: 8px
+                        height: 8px
+                        position: absolute
+                        left: -15px
+                        top: 7px
+                        border: 1px solid $p-color
+                        border-radius: 50%
+    &__vida
+        .ocw-slick-panels__item__title
+            color: $vida
+        .ocw-slick-panels__item__content__list li::before
+            border-color: $vida
+        &.ocw-slick-panels__item
+            border-color: $vida
+    &__eticos
+        .ocw-slick-panels__item__title
+            color: $eticos
+        .ocw-slick-panels__item__content__list li::before
+            border-color: $eticos
+        &.ocw-slick-panels__item
+            border-color: $eticos
+    &__apasionados
+        .ocw-slick-panels__item__title
+            color: $apasionados
+        .ocw-slick-panels__item__content__list li::before
+            border-color: $apasionados
+        &.ocw-slick-panels__item
+            border-color: $apasionados
+    &__escuchamos
+        .ocw-slick-panels__item__title
+            color: $escuchamos
+        .ocw-slick-panels__item__content__list li::before
+            border-color: $escuchamos
+        &.ocw-slick-panels__item
+            border-color: $escuchamos
+    &__imposible
+        .ocw-slick-panels__item__title
+            color: $imposible
+        .ocw-slick-panels__item__content__list li::before
+            border-color: $imposible
+        &.ocw-slick-panels__item
+            border-color: $imposible
+    &__equipo
+        .ocw-slick-panels__item__title
+            color: $equipo
+        .ocw-slick-panels__item__content__list li::before
+            border-color: $equipo
+        &.ocw-slick-panels__item
+            border-color: $equipo
+    
+@include media-breakpoint-down(lg)
+    .ocw-slick-tabs__item__arrow-down
+        opacity: 1

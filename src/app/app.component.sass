@@ -1,0 +1,251 @@
+.ocw-header-principal
+    transition: $tr
+    position: relative
+    height: 140px
+    &__nav
+        padding: 0 3em
+        display: flex
+        align-items: center
+        justify-content: space-between
+        font-family: 'roboto-medium', sans-serif
+        position: relative
+        &__logo
+            &__img
+                position: relative
+        &__button-toggle
+            cursor: pointer
+            display: none
+            &__line
+                height: 1px
+                width: 20px
+                background: $p-color
+                display: block
+                margin: 5px 0
+                &:last-child
+                    width: 15px
+        .nav-item
+            position: relative
+        .nav-link
+            padding: 2em .8em
+            font-family: 'roboto-medium'
+            font-size: 15px
+            line-height: 19px
+            position: relative
+            transition: $tr
+            &::before
+                content: ''
+                width: 0
+                height: 4px
+                background-color: $p-color
+                position: absolute
+                top: 0
+                left: 50%
+                transition: $tr
+            &:hover, &.active
+                color: $p-color
+                &::before
+                   width: 100%
+                   left: 0 
+        &__aux
+            display: flex
+            align-items: center
+            position: relative
+            &__language
+                margin-right: 10px
+                transition: $tr
+                font-size: 15px
+                &:hover
+                    text-decoration: none
+            &__search
+                svg
+                    width: 16px
+                &:hover
+                    transition: $tr
+        &__submenu
+            position: absolute
+            background-color: white
+            width: 600px
+            outline: 1px solid #C0C9CF
+            padding: 2.5em 0
+            display: none
+            z-index: 1
+            box-sizing: border-box
+            &__intro
+                padding: 0 2.5em
+                border-right: 1px solid #707070
+                &__img
+                    width: 100%
+                    height: 123px
+                    object-fit: cover
+                    margin-bottom: 2em
+                &__text
+                    font-family: 'helvetica', sans-serif
+                    font-size: 13px
+                    line-height: 23px
+            &__list
+                flex-direction: column
+                padding: 0 2.5em
+                position: unset
+                .nav-item
+                    position: unset
+                .nav-link
+                    padding: 1em 0
+                    font-size: 13px
+                    display: flex
+                    align-items: center
+                    &::before
+                       height: 2px 
+                    &__arrow
+                        margin-left: 5px
+                        color: #8999A2
+                        display: block
+                        font-size: 15px
+                        position: absolute
+                        width: 100%
+                        text-align: right
+                        &.active, &:hover
+                            color: $p-color
+                        svg
+                            width: 15px
+                            height: 15px
+            &.sub-list
+                width: 300px
+                position: absolute
+                top: 0
+                right: -300px
+                background-color: white
+                height: 100%
+                border: none
+                display: none
+                
+    &.ocw-light
+        .nav-link
+            color: white
+            &:hover, &.active
+                color: $p-color
+        .ocw-header-principal__nav__aux__language
+            color: white
+            &:hover
+                color: $p-color
+        .ocw-header-principal__nav__aux__search
+            &:hover
+                svg
+                    g
+                        stroke: $p-color
+        .ocw-header-principal__nav__button-toggle
+            &__line
+                background: white
+        &::before
+            content: ''
+            width: 100%
+            height: 100%
+            background-color: black
+            position: absolute
+            left: 0
+            top: 0
+            background: rgb(0,0,0)
+            background: linear-gradient(0deg, rgba(0,0,0,0) 0%, rgba(0,0,0,1) 100%)
+            opacity: .3
+    &.ocw-dark
+        .nav-link
+            color: #505D6C
+            &:hover, &.active
+                color: $p-color
+        .ocw-header-principal__nav__aux__language
+            color: $p-color
+            &:hover
+                opacity: .6
+        .ocw-header-principal__nav__aux__search
+            svg
+                g
+                    stroke: $p-color
+            &:hover
+                opacity: .6
+        .ocw-header-principal__nav__button-toggle
+            &__line
+                background: $p-color
+
+.ocw-header-fixed
+    position: fixed
+    top: 0
+    width: 100vw
+    left: 0
+    height: auto
+    z-index: 5
+    animation: stickyHeader 1s
+
+.ocw-active-scroll
+    background-color: white !important
+    border-bottom: 1px solid #ccc
+    height: auto
+    z-index: 5
+    &::before
+        display: none
+    .nav-link
+        color: #505D6C !important
+        &:hover, &.active
+            color: $p-color !important
+    .ocw-header-principal__nav__aux__language
+        color: $p-color !important
+        &:hover
+            opacity: .6
+    .ocw-header-principal__nav__aux__search
+        svg
+            g
+                stroke: $p-color
+        &:hover
+            opacity: .6
+    .ocw-header-principal__nav__button-toggle
+        &__line
+            background: $p-color
+    .ocw-header-principal__nav__button-toggle__line
+        background-color: $p-color !important
+
+.ocw-header-absolute
+    position: absolute
+    top: 0
+    width: 100%
+    left: 0
+    z-index: 5
+
+.ocw-header-principal__nav__submenu
+    .nav-link
+        color: black !important
+        &:hover
+            color: $p-color !important
+
+@keyframes stickyHeader
+    from
+        transform: translateY(-100%)
+    to
+        transform: translateY(0)
+
+@include media-breakpoint-down(md)
+    .ocw-header-principal
+        &__nav
+            padding: 2em 1em
+            &__button-toggle
+                display: block
+            &__menu
+                display: none
+
+.imgInversionista
+    vertical-align: middle
+    border-style: none
+    width: 600px
+
+.caja-titulo-apertura-seccion-interna p
+font-family: 'roboto-medium'	
+font-size: 16px
+line-height: 22px
+margin-top: 5px	
+color: #505D6C
+
+.caja-titulo-apertura-seccion-interna p
+font-family: 'roboto-medium'	
+font-size: 16px
+line-height: 22px
+margin-top: 5px	
+color: #505D6C	
+
+

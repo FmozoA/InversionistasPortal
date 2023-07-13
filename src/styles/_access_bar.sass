@@ -1,0 +1,37 @@
+.ocw-access-bar
+    position: fixed
+    background-color: $p-color
+    right: 0
+    border: 1px solid white
+    padding: .5rem .3rem
+    border-top-left-radius: 5px
+    border-bottom-left-radius: 5px
+    z-index: 4
+    svg
+        width: 27px
+    &__list
+        flex-direction: column
+        .nav-link
+            width: 27px
+            height: 27px
+            border-radius: 3px
+            background-color: white
+            padding: 0
+            display: flex
+            justify-content: center
+            align-items: center
+            margin: .5rem 0
+
+@include media-breakpoint-down(sm)
+    .ocw-access-bar
+        top: unset
+        bottom: 0
+        left: 0
+        padding: 0 .3rem
+        border-radius: 0px
+        &__list
+            flex-direction: row
+            justify-content: center
+            .nav-link
+                margin: .5rem 1rem
+    
