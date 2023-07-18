@@ -1,0 +1,17 @@
+h1 {
+    text-align: center;
+}
+#captcha {
+    font-size: 24px;
+    font-weight: bold;
+}
+.DivPrincipal{
+    text-align: center;
+}
+.Title{
+    color: gray;
+}
+
+.imgCap{
+    width:40%;
+}

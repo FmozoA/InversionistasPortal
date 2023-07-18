@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+<link rel="stylesheet" type="text/css" href="../css/captcha.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+<head>
+    <title>Captcha Codigo</title>
+</head>
+
+<body>
+    <h1 class="text-center">Verificacion de seguridad</h1>
+    <div id="ValidateLetras" style="display: none;">
+       
+        <div class="row"></div>
+        <div class="col-sm-4"></div>
+        <div class="col-sm-4">
+            <center>
+                <div class="text-center imgCap">
+                    <img style="width:100%;"
+                        src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/ad/RecaptchaLogo.svg/800px-RecaptchaLogo.svg.png"
+                        alt="">
+                </div>
+            </center>
+            <p class="text-center" for="usr" style="font-weight: bold;">Digite el codigo de seguridad:</p>
+            <div class="form-group">
+
+                <div class="text-center" id="captchaLetras"></div>
+                <input type="text" class="form-control" id="captchaInputLetras" placeholder="Ingresa el texto del captcha">
+                <p style="color: green; display:none;" id="CorrectoLetras" class="text-center"> El captcha es correcto! <span
+                        class="glyphicon glyphicon-ok "></span></p>
+                <p style="color: red;display:none;" id="FalloLetras" class="text-center"> El captcha no es correcto! <span
+                        class="glyphicon glyphicon-remove"></span></p>
+
+
+
+            </div>
+
+
+
+            <button type="button" class="btn btn-success" id="ValidarLetras">Validar</button>
+        </div>
+        <div class="col-sm-4"></div>
+
+    </div>
+
+    <div id="ValidateNumeros" style="display: none;">
+       
+    <div class="row"></div>
+    <div class="col-sm-4"></div>
+    <div class="col-sm-4">
+        <center>
+            <div class="text-center" style="width:40%;">
+                <img style="width:100%;"
+                    src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/ad/RecaptchaLogo.svg/800px-RecaptchaLogo.svg.png"
+                    alt="">
+            </div>
+        </center>
+        <p class="text-center" for="usr" style="font-weight: bold;">Resuelve el siguiente problema matematico:</p>
+        <div class="form-group">
+            
+            <div class="text-center" id="captchaNumeros"></div>
+            <input type="text" class="form-control" id="captchaInputNumeros" placeholder="Resuelva la operacion matematica">
+            <p style="color: green; display:none;" id="CorrectoNumeros" class="text-center"> El captcha es correcto!  <span class="glyphicon glyphicon-ok " ></span></p>
+            <p style="color: red;display:none;" id="FalloNumeros" class="text-center"> El captcha no es correcto!  <span class="glyphicon glyphicon-remove"></span></p>
+
+            
+            
+        </div>
+
+        
+
+        <button type="button" class="btn btn-success" id="ValidarNumeros">Validar</button>
+    </div>
+    <div class="col-sm-4"></div>
+    </div>
+
+    <script src="../js/captcha.js"></script>
+</body>
+
+</html>
